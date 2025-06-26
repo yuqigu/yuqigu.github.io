@@ -1,0 +1,29 @@
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2022.6">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {-webkit-text-stroke: 0px #000000}
+    span.s3 {text-decoration: underline ; font-kerning: none; color: #0000dc; -webkit-text-stroke: 0px #0000dc}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1">--- ---</span></p>
+<ul class="ul1">
+  <li class="li1"><span class="s2"></span><span class="s1">{% if entry.type == "thesis" %} {{reference}} {% else %} {{entry.title}}<br>
+{% for author in entry.author_array %} {% assign author_is_self = false %} {% if author.last == site.scholar.last_name%} {% if site.scholar.first_name contains author.first%} {% assign author_is_self = true %} {% endif %} {% endif %} {% assign coauthor_url = nil %} {% if site.data.coauthors[author.last] %} {% for coauthor in site.data.coauthors[author.last] %} {% if coauthor.firstname contains author.first %} {% assign coauthor_url = coauthor.url %} {% break %} {% endif %} {% endfor %} {% endif %} {% if forloop.length == 1 %} {% if author_is_self %} <i>{{author.last}}, {{author.first}}</i> {% else %} {{author.last}}, {{author.first}} {% endif %} {% else %} {% unless forloop.last %} {% if author_is_self %} <i>{{author.last}}, {{author.first}}</i>, {% else %} {% if coauthor_url %} <a href="file:///Users/yuqigu/Desktop/myweb/al-folio/_layouts/%7B%7Bcoauthor_url%7D%7D"><span class="s3">{{author.last}}, {{author.first}}</span></a>, {% else %} {{author.last}}, {{author.first}}, {% endif %} {% endif %} {% else %} {% if author_is_self %} and <i>{{author.last}}, {{author.first}}</i> {% else %} {% if coauthor_url %} and <a href="file:///Users/yuqigu/Desktop/myweb/al-folio/_layouts/%7B%7Bcoauthor_url%7D%7D"><span class="s3">{{author.last}}, {{author.first}}</span></a> {% else %} and {{author.last}}, {{author.first}} {% endif %} {% endif %} {% endunless %} {% endif %} {% endfor %} <br>
+{% if entry.type == "article" %} <i>{{entry.journal}}</i> {% elsif entry.type == "inproceedings" %} <i>In {{entry.booktitle}}</i> {% endif %} {% if entry.year %} ({{entry.year}}) {% endif %} {% if entry.volume %} , {{entry.volume}} {% endif %} {% if entry.number %} ({{entry.number}}) {% endif %} {% if entry.pages %} : {{entry.pages}}. {% endif %} <br>
+{% endif %} {% if entry.abstract %} Abs {% endif %} {% if entry.arxiv %} [<a href="http://arxiv.org/abs/%7B%7B%20entry.arxiv%20%7D%7D"><span class="s3">arXiv</span></a>] {% endif %} {% if entry.journalurl %} [<a href="file:///Users/yuqigu/Desktop/myweb/al-folio/_layouts/%7B%7B%20entry.journalurl%20%7D%7D"><span class="s3">Journal</span></a>] {% endif %} {% if entry.html %} <a href="file:///Users/yuqigu/Desktop/myweb/al-folio/_layouts/%7B%7B%20entry.html%20%7D%7D"><span class="s3">HTML</span></a> {% endif %} {% if entry.pdf %} {% if entry.pdf contains '://' %} [<a href="file:///Users/yuqigu/Desktop/myweb/al-folio/_layouts/%7B%7B%20entry.pdf%20%7D%7D"><span class="s3">PDF</span></a>] {% else %} [<a href="file:///Users/yuqigu/Desktop/myweb/al-folio/_layouts/%7B%7B%20entry.pdf%20%7C%20prepend:%20'/assets/pdf/'%20%7C%20relative_url%20%7D%7D"><span class="s3">PDF</span></a>] {% endif %} {% endif %} {% if entry.supp %} {% if entry.supp contains '://' %} <a href="file:///Users/yuqigu/Desktop/myweb/al-folio/_layouts/%7B%7B%20entry.supp%20%7D%7D"><span class="s3">Supp</span></a> {% else %} <a href="file:///Users/yuqigu/Desktop/myweb/al-folio/_layouts/%7B%7B%20entry.supp%20%7C%20prepend:%20'/assets/pdf/'%20%7C%20relative_url%20%7D%7D"><span class="s3">Supp</span></a> {% endif %} {% endif %} {% if entry.blog %} <a href="file:///Users/yuqigu/Desktop/myweb/al-folio/_layouts/%7B%7B%20entry.blog%20%7D%7D"><span class="s3">Blog</span></a> {% endif %} {% if entry.code %} <a href="file:///Users/yuqigu/Desktop/myweb/al-folio/_layouts/%7B%7B%20entry.code%20%7D%7D"><span class="s3">Code</span></a> {% endif %} {% if entry.poster %} {% if entry.poster contains '://' %} <a href="file:///Users/yuqigu/Desktop/myweb/al-folio/_layouts/%7B%7B%20entry.poster%20%7D%7D"><span class="s3">Poster</span></a> {% else %} <a href="file:///Users/yuqigu/Desktop/myweb/al-folio/_layouts/%7B%7B%20entry.poster%20%7C%20prepend:%20'/assets/pdf/'%20%7C%20relative_url%20%7D%7D"><span class="s3">Poster</span></a> {% endif %} {% endif %} {% if entry.slides %} {% if entry.slides contains '://' %} <a href="file:///Users/yuqigu/Desktop/myweb/al-folio/_layouts/%7B%7B%20entry.slides%20%7D%7D"><span class="s3">Slides</span></a> {% else %} <a href="file:///Users/yuqigu/Desktop/myweb/al-folio/_layouts/%7B%7B%20entry.slides%20%7C%20prepend:%20'/assets/pdf/'%20%7C%20relative_url%20%7D%7D"><span class="s3">Slides</span></a> {% endif %} {% endif %} {% if entry.website %} <a href="file:///Users/yuqigu/Desktop/myweb/al-folio/_layouts/%7B%7B%20entry.website%20%7D%7D"><span class="s3">Website</span></a> {% endif %} <br>
+{% if entry.abstract %} {{ entry.abstract }}<br>
+<br>
+{% endif %}<span class="Apple-converted-space"> </span></span></li>
+</ul>
+</body>
+</html>

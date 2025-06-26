@@ -1,24 +1,42 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+description: 
 
 profile:
   align: right
   image: prof_pic.jpg
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  address: 
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com){:target="\_blank"}. You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Email:  [yuqi.gu@columbia.edu](mailto:yuqi.gu@columbia.edu).  
+Address:  Room 928 SSW, 1255 Amsterdam Avenue, New York, NY 10027
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am an Assistant Professor in the [Department of Statistics](https://stat.columbia.edu/) at [Columbia University](https://www.columbia.edu/). I am also a [member](https://datascience.columbia.edu/people/yuqi-gu/) of the [Data Science Institute](https://datascience.columbia.edu/). 
+Before joining Columbia in 2021, I spent a year as a postdoc at [Duke University](https://duke.edu/){:target="\_blank"}, mentored by [David B. Dunson](https://scholars.duke.edu/person/dunson){:target="\_blank"}.
+In 2020 I received a Ph.D. in [Statistics](https://lsa.umich.edu/stats){:target="\_blank"} from the [University of Michigan](https://umich.edu/){:target="\_blank"}, advised by [Gongjun Xu](https://sites.google.com/umich.edu/gongjunxu){:target="\_blank"}. 
+In 2015 I received a B.S. in [Mathematics](https://math.tsinghua.edu.cn/){:target="\_blank"} from [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm){:target="\_blank"}.
+My first name can be pronounced as `/ju:-tʃi:/`. My name in Chinese is 顾雨琦.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/){:target="\_blank"} and [Academicons](https://jpswalsh.github.io/academicons/){:target="\_blank"}, like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research centers around investigating **unobserved latent structures** widely present in statistics, machine learning,  psychometrics and other applications:
++ **Deep generative models and statistical machine learning**: I study the identifiability and other essential properties inherent in deep nonlinear models and probabilistic graphical models with latent representations. One goal is to propose more interpretable models and discover potential causal explanations.
++ **High-dimensional statistics with latent structures**: The high dimensionality and the latent structures pose double challenges to statistical analyses. I aim to develop computationally efficient and statistically accurate methods with theoretical guarantees to recover latent structures and quantify uncertainty.
++ **Latent variable modeling in psychometrics and beyond**: I develop principled statistical methods and theory to model educational and psychological data with substantively meaningful latent traits such as skills, attitudes, etc. I am also interested in other applications of latent variable modeling in biomedical sciences.
+
+My research is partially supported by NSF Grant [DMS-2210796 (sole PI)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2210796&HistoricalAwards=false).
+
+[Here is my Curriculum Vitae (updated in June 2025)](https://drive.google.com/file/d/1F4Lmlb6EHDqgEawz56_oRwkAd80OVxlL/view?usp=sharing).
+
+
+
+
+
+
+
+
+
