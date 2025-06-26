@@ -1,1 +1,1 @@
-Sitemap: stat.columbia.edu/yuqigu/sitemap.xml
+Sitemap: yuqigu.github.io/sitemap.xml
