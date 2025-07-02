@@ -13,12 +13,15 @@ page_order: 2
 + [Zhongyuan Lyu](https://zhongyuanlyu.github.io) (co-mentored with Prof. Kaizheng Wang)
 
 ###### Ph.D. Students:
-+ [Ling Chen](https://scholar.google.com/citations?hl=en&user=9ptLAD8AAAAJ) (co-advised with Prof. Jingchen Liu)
 + [Seunghyun Lee](https://sites.google.com/view/seunghyun-stats/bio?pli=1&authuser=1) (co-advised with Prof. Sumit Mukherjee)
 + Chengzhu Huang
 + Zhiyu Xu
 
 #### Former:
+
+###### Graduated Ph.D. Student:
++ [Ling Chen](https://scholar.google.com/citations?hl=en&user=9ptLAD8AAAAJ) (Ph.D. 2025, co-advised with Prof. Jingchen Liu).
+Current position: Quantitative Researcher at Tudor Investment Corporation.
 
 ###### Visiting Ph.D. Student:
 + Jia Liu (Ph.D. student in Statistics from Northeast Normal University): 11/2023-10/2024.
