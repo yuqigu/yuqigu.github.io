@@ -30,7 +30,7 @@ My research centers around investigating **unobserved latent structures** widely
 
 My research is partially supported by NSF Grant [DMS-2210796 (sole PI)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2210796&HistoricalAwards=false).
 
-[Here is my Curriculum Vitae (updated in June 2025)](https://drive.google.com/file/d/1F4Lmlb6EHDqgEawz56_oRwkAd80OVxlL/view?usp=sharing).
+[Here is my Curriculum Vitae (updated in June 2025)](https://drive.google.com/file/d/14f6tEoziSUGsoOS2bJ2ImiXoEQk0hUak/view?usp=sharing).
 
 
 
