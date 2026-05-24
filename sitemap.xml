@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>yuqigu.github.io/news/sola/</loc>
+<lastmod>2016-02-03T00:00:00-05:00</lastmod>
+</url>
+<url>
 <loc>yuqigu.github.io/news/dhlcm/</loc>
 <lastmod>2025-01-12T00:00:00-05:00</lastmod>
 </url>
@@ -37,10 +41,6 @@
 <lastmod>2026-01-22T00:00:00-05:00</lastmod>
 </url>
 <url>
-<loc>yuqigu.github.io/news/sola/</loc>
-<lastmod>2026-02-03T00:00:00-05:00</lastmod>
-</url>
-<url>
 <loc>yuqigu.github.io/news/atc_jasa/</loc>
 <lastmod>2026-03-05T00:00:00-05:00</lastmod>
 </url>
@@ -67,6 +67,10 @@
 <url>
 <loc>yuqigu.github.io/news/seunghyun_phd/</loc>
 <lastmod>2026-04-27T00:00:00-04:00</lastmod>
+</url>
+<url>
+<loc>yuqigu.github.io/news/crystal_preprint/</loc>
+<lastmod>2026-05-24T00:00:00-04:00</lastmod>
 </url>
 <url>
 <loc>yuqigu.github.io/2015/03/15/formatting-and-links.html</loc>
