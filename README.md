@@ -14,6 +14,26 @@ If you like the theme, give it a star!
 
 [![Preview](https://raw.githubusercontent.com/alshedivat/al-folio/master/assets/img/al-folio-preview.png)](https://alshedivat.github.io/al-folio/)
 
+## Site maintenance
+
+This repository uses the `source` branch for source files. The generated site is built into `_site/` locally and deployed to the publishing branch by `bin/deploy`; do not edit or commit `_site/` directly.
+
+Use the Ruby version in `.ruby-version` with Bundler. For a local build:
+
+```bash
+gem install bundler:2.2.21
+bundle _2.2.21_ install
+bundle _2.2.21_ exec jekyll build
+```
+
+Before building or deploying, check the worktree:
+
+```bash
+git status --short
+```
+
+Keep commits focused: one content/site change per commit, and separate build or dependency hygiene into its own commit.
+
 
 ## User community
 
