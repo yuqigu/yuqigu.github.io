@@ -136,6 +136,15 @@
           
           
           <li class="nav-item ">
+              <a class="nav-link" href="/publications/">
+                Publications
+                
+              </a>
+          </li>
+          
+          
+          
+          <li class="nav-item ">
               <a class="nav-link" href="/teaching/">
                 Mentoring and Teaching
                 
@@ -172,142 +181,34 @@
   </header>
 
   <article>
-    <div class="publications">
+    <h2 id="statistical-foundations-for-latent-structure-and-representation-learning">Statistical foundations for latent structure and representation learning</h2>
 
-<u>Underlined</u> are student or postdoc authors under my supervision.
-&#9993; indicates I am the corresponding author.<br />
+<p>My research develops statistical foundations and methodology for learning interpretable latent representations from complex data. A recurring goal is to understand when latent structures are identifiable, how they can be learned and quantified reliably in high dimensions, and how statistically grounded representations can support scientific measurement and modern AI.</p>
 
-* indicates co-first authors. ⁺ indicates alphabetical authorship.<br /><br />
+<p>For a complete chronological list of papers and preprints, see <a href="/publications/">Publications</a>.</p>
 
-<h2> Preprints </h2>
+<p>In the selected work below, <u>underlined</u> names are students or postdoctoral researchers under my supervision; ✉ marks corresponding authors, * marks co-first authors, and ⁺ marks alphabetical authorship.</p>
 
+<h3 id="recurring-questions">Recurring questions</h3>
+
+<ul>
+  <li><strong>Identifiability.</strong> Which features of a latent representation or architecture are determined by the distribution of the observed data, and under what structural assumptions?</li>
+  <li><strong>Learning and inference.</strong> How can latent structure be recovered efficiently in high dimensions, with finite-sample guarantees and principled uncertainty quantification?</li>
+  <li><strong>Measurement and interpretation.</strong> How can latent representations support interpretable measurement of heterogeneous populations, scientific constructs, and complex AI systems?</li>
+</ul>
+
+<p>These questions recur across three connected research directions.</p>
+
+<h2 id="1-identifiable-deep-and-causal-representations">1. Identifiable deep and causal representations</h2>
+
+<p>I study how latent representations in deep generative models can be made structurally meaningful rather than arbitrary. This work develops identifiable models with discrete latent layers, including Bayesian Pyramids and Deep Discrete Encoders, and investigates when latent dimension, graphical structure, and other features of a latent architecture can be recovered from observed data.</p>
+
+<p>A related line of work studies causal structure among latent variables. I develop theory and methods for discrete causal representation learning, identifiability of latent causal graphical models, and tensor-unfolding approaches to learning unknown latent bipartite architectures. The broader aim is to connect expressive representation models with assumptions that make their learned structure statistically interpretable.</p>
+
+<h3 id="selected-work">Selected work</h3>
+
+<div class="publications">
 <ol class="bibliography"><li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="lee2026local">
-  
-    <span class="title">Beyond Local Independence: High-Dimensional Latent Class Graphical Models with Shared Block Structure</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                <u>Seunghyun Lee</u>,
-              
-            
-          
-        
-      
-        
-          
-            
-              and <em>Yuqi Gu&#9993;</em>.
-            
-          
-        
-      
-    </span>
-
-    
-    <span class="periodical">
-    
-      <em>arXiv preprint arXiv:arXiv:2606.29631</em> (2026)
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/arXiv:2606.29631" target="_blank">arXiv</a>]
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="feldman2026copdde">
-  
-    <span class="title">Identifiable Bayesian Deep Generative Copulas with Unknown Layer Widths for Data with Arbitrary Marginal Distributions</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                
-                  Joseph Feldman,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              and <em>Yuqi Gu</em>.
-            
-          
-        
-      
-    </span>
-
-    
-    <span class="periodical">
-    
-      <em>arXiv preprint arXiv:arXiv:2605.27523</em> (2026)
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/arXiv:2605.27523" target="_blank">arXiv</a>]
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    [<a href="https://github.com/jfeldman396/DDE-Copula" target="_blank">Code</a>]
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
 <li>
 
 
@@ -391,38 +292,16 @@
 <li>
 
 
-<div id="liu2026cdm-llm">
+<div id="gu2025unfold">
   
-    <span class="title">Scalable Text-Embedding-informed Cognitive Diagnosis of Large Language Models</span>
+    <span class="title">Unfolding Tensors to Identify the Graph in Discrete Latent Bipartite Graphical Models</span>
     <br />
     <span class="author">
       
       
         
           
-            
-              
-                <u>Jia Liu</u>,
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                <u>Zhiyu Xu</u>,
-              
-            
-          
-        
-      
-        
-          
-            
-              and <em>Yuqi Gu&#9993;</em>.
-            
+            <em>Yuqi Gu&#9993;</em>.
           
         
       
@@ -431,7 +310,7 @@
     
     <span class="periodical">
     
-      <em>arXiv preprint arXiv:2603.14676</em> (2026)
+      <em>arXiv preprint arXiv:2501.10897</em> (2025)
     
     </span>
   
@@ -440,7 +319,7 @@
   <span class="links">
   
   
-    [<a href="http://arxiv.org/abs/2603.14676" target="_blank">arXiv</a>]
+    [<a href="http://arxiv.org/abs/2501.10897" target="_blank">arXiv</a>]
   
   
   
@@ -462,9 +341,9 @@
 <li>
 
 
-<div id="xu2026cogom">
+<div id="lee2025dde">
   
-    <span class="title">Covariate-assisted Mixed Membership Models via Shared Latent Geometry</span>
+    <span class="title">Deep Discrete Encoders: Identifiable Deep Generative Models for Rich Data with Discrete Latent Layers</span>
     <br />
     <span class="author">
       
@@ -473,7 +352,222 @@
           
             
               
-                <u>Zhiyu Xu</u>,
+                <u>Seunghyun Lee</u>,
+              
+            
+          
+        
+      
+        
+          
+            
+              and <em>Yuqi Gu&#9993;</em>
+            
+          
+        
+      
+    </span>
+
+    
+    <br />
+    
+    <span class="periodical">
+    
+      <em>Journal of the American Statistical Association</em> (2026), 121 (553): 194–208.
+    
+    </span>
+  
+
+<!-- <br> -->
+  <span class="links">
+  
+  
+    [<a href="http://arxiv.org/abs/2501.01414" target="_blank">arXiv</a>]
+  
+  
+  
+    [<a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2587922" target="_blank">Journal</a>]
+  
+  
+  
+  
+  
+  
+  
+    [<a href="https://github.com/seunghyun-stats/Deep-Discrete-Encoders" target="_blank">Code</a>]
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <br />
+  <span class="abstract hidden">
+    <big> (This paper received <b>American Statistical Association (ASA) Statistical Learning and Data Science (SLDS) Section 2025 Student Paper Award</b>) </big>
+  </span>
+  
+</div>
+</li>
+</ul>
+</li>
+<li><ul style="margin-bottom: 20px;list-style-type:disc">
+<li>
+
+
+<div id="lee2025causal">
+  
+    <span class="title">On Theoretical Identifiability of Discrete Latent Causal Graphical Models</span>
+    <br />
+    <span class="author">
+      
+      
+        
+          
+            
+              
+                <u>Seunghyun Lee</u>,
+              
+            
+          
+        
+      
+        
+          
+            
+              and <em>Yuqi Gu</em>
+            
+          
+        
+      
+    </span>
+
+    
+    <br />
+    
+    <span class="periodical">
+    
+      <em>Transactions on Machine Learning Research</em> (2026)
+    
+    </span>
+  
+
+<!-- <br> -->
+  <span class="links">
+  
+  
+    [<a href="http://arxiv.org/abs/2505.18410" target="_blank">arXiv</a>]
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+</div>
+</li>
+</ul>
+</li>
+<li><ul style="margin-bottom: 20px;list-style-type:disc">
+<li>
+
+
+<div id="gu2023bp">
+  
+    <span class="title">Bayesian Pyramids: Identifiable Multilayer Discrete Latent Structure Models for Discrete Data</span>
+    <br />
+    <span class="author">
+      
+      
+        
+          
+            
+              <em>Yuqi Gu&#9993;</em>,
+            
+          
+        
+      
+        
+          
+            
+              
+                
+                  and David B. Dunson
+                
+              
+            
+          
+        
+      
+    </span>
+
+    
+    <br />
+    
+    <span class="periodical">
+    
+      <em>Journal of the Royal Statistical Society Series B: Statistical Methodology</em> (2023), 85 (2): 399–426.
+    
+    </span>
+  
+
+<!-- <br> -->
+  <span class="links">
+  
+  
+    [<a href="http://arxiv.org/abs/2101.10373" target="_blank">arXiv</a>]
+  
+  
+  
+    [<a href="https://academic.oup.com/jrsssb/advance-article/doi/10.1093/jrsssb/qkad010/7074362" target="_blank">Journal</a>]
+  
+  
+  
+  
+  
+  
+  
+    [<a href="https://github.com/yuqigu/BayesianPyramids" target="_blank">Code</a>]
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+</div>
+</li>
+</ul>
+</li></ol>
+</div>
+
+<h2 id="2-high-dimensional-statistical-inference-with-latent-structure">2. High-dimensional statistical inference with latent structure</h2>
+
+<p>I develop scalable methods for high-dimensional data in which heterogeneity is governed by latent classes, mixed membership, factors, or clusters. The methods draw on spectral, tensor, likelihood-based, and geometric ideas, with an emphasis on finite-sample guarantees, optimal recovery, and uncertainty quantification.</p>
+
+<p>Recent work moves beyond idealized local-independence assumptions by modeling latent graphical dependence, local dependence, and shared block structure. I also study transfer and adaptation across related populations. This program asks not only whether latent structure is identifiable, but also when computational procedures recover it at statistically optimal rates.</p>
+
+<h3 id="selected-work-1">Selected work</h3>
+
+<div class="publications">
+<ol class="bibliography"><li><ul style="margin-bottom: 20px;list-style-type:disc">
+<li>
+
+
+<div id="lee2026local">
+  
+    <span class="title">Beyond Local Independence: High-Dimensional Latent Class Graphical Models with Shared Block Structure</span>
+    <br />
+    <span class="author">
+      
+      
+        
+          
+            
+              
+                <u>Seunghyun Lee</u>,
               
             
           
@@ -492,7 +586,7 @@
     
     <span class="periodical">
     
-      <em>arXiv preprint arXiv:2601.17265</em> (2026)
+      <em>arXiv preprint arXiv:2606.29631</em> (2026)
     
     </span>
   
@@ -501,159 +595,7 @@
   <span class="links">
   
   
-    [<a href="http://arxiv.org/abs/2601.17265" target="_blank">arXiv</a>]
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    [<a href="https://github.com/Toby-X/Covariate-Assisted-GoM" target="_blank">Code</a>]
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="luo2025subgroup">
-  
-    <span class="title">Valid and Efficient Two-Stage Latent Subgroup Analysis with Observational Data</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                
-                  Yuanhui Luo,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Xinzhou Guo&#9993;,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              and <em>Yuqi Gu&#9993;</em>.
-            
-          
-        
-      
-    </span>
-
-    
-    <span class="periodical">
-    
-      <em>arXiv preprint arXiv:2512.24223</em> (2025)
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2512.24223" target="_blank">arXiv</a>]
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="zhou2025bayes">
-  
-    <span class="title">Bayesian Latent Class Regression with Interpretable Binary Profiles</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                
-                  Yuren Zhou,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              <em>Yuqi Gu</em>,
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  and David B. Dunson.
-                
-              
-            
-          
-        
-      
-    </span>
-
-    
-    <span class="periodical">
-    
-      <em>arXiv preprint arXiv:2503.17531</em> (2025)
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2503.17531" target="_blank">arXiv</a>]
+    [<a href="http://arxiv.org/abs/2606.29631" target="_blank">arXiv</a>]
   
   
   
@@ -741,230 +683,6 @@
 <li>
 
 
-<div id="gu2025unfold">
-  
-    <span class="title">Unfolding Tensors to Identify the Graph in Discrete Latent Bipartite Graphical Models</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            <em>Yuqi Gu&#9993;</em>.
-          
-        
-      
-    </span>
-
-    
-    <span class="periodical">
-    
-      <em>arXiv preprint arXiv:2501.10897</em> (2025)
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2501.10897" target="_blank">arXiv</a>]
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="zhou2024bayes">
-  
-    <span class="title">Bayesian Deep Generative Models for Multiplex Networks with Multiscale Overlapping Clusters</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                
-                  Yuren Zhou,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              <em>Yuqi Gu</em>,
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  and David B. Dunson.
-                
-              
-            
-          
-        
-      
-    </span>
-
-    
-    <span class="periodical">
-    
-      <em>arXiv preprint arXiv:2405.20936</em> (2024)
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2405.20936" target="_blank">arXiv</a>]
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-  <br />
-  <span class="abstract hidden">
-    <big> (This paper received <b>ENAR 2025 Distinguished Student Paper Award</b>) </big>
-  </span>
-  
-</div>
-</li>
-</ul>
-</li></ol>
-
-<h2> 2026 </h2>
-
-<ol class="bibliography"><li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="xu2025lart">
-  
-    <span class="title">Latency-Response Theory Model: Evaluating Large Language Models via Response Accuracy and Chain-of-Thought Length</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                <u>Zhiyu Xu</u>,
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                <u>Jia Liu</u>,
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Yixin Wang,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              and <em>Yuqi Gu&#9993;</em>
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Annals of Applied Statistics</em> (2026), accepted.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2512.07019" target="_blank">arXiv</a>]
-  
-  
-  
-  
-  
-  
-  
-  
-  
-    [<a href="https://github.com/Toby-X/Latency-Response-Theory-Model" target="_blank">Code</a>]
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-  <br />
-  <span class="abstract hidden">
-    <big> (This paper received <b>ASA Statistical Learning and Data Science (SLDS) Section 2026 Student Paper Award</b>) </big>
-  </span>
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
 <div id="chen2024local">
   
     <span class="title">Generalized Grade-of-Membership Estimation for High-dimensional Locally Dependent Data</span>
@@ -1033,78 +751,6 @@
   </span>
 
   <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="lee2025dde">
-  
-    <span class="title">Deep Discrete Encoders: Identifiable Deep Generative Models for Rich Data with Discrete Latent Layers</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                <u>Seunghyun Lee</u>,
-              
-            
-          
-        
-      
-        
-          
-            
-              and <em>Yuqi Gu&#9993;</em>
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Journal of the American Statistical Association</em> (2026), 121 (553): 194–208.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2501.01414" target="_blank">arXiv</a>]
-  
-  
-  
-    [<a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2587922" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-    [<a href="https://github.com/seunghyun-stats/Deep-Discrete-Encoders" target="_blank">Code</a>]
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-  <br />
-  <span class="abstract hidden">
-    <big> (This paper received <b>American Statistical Association (ASA) Statistical Learning and Data Science (SLDS) Section 2025 Student Paper Award</b>) </big>
-  </span>
   
 </div>
 </li>
@@ -1193,125 +839,9 @@
 <li>
 
 
-<div id="lee2025causal">
+<div id="lyu2024dhlcm">
   
-    <span class="title">On Theoretical Identifiability of Discrete Latent Causal Graphical Models</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                <u>Seunghyun Lee</u>,
-              
-            
-          
-        
-      
-        
-          
-            
-              and <em>Yuqi Gu</em>
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Transactions on Machine Learning Research</em> (2026)
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2505.18410" target="_blank">arXiv</a>]
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="gu2025unfold-q">
-  
-    <span class="title">Constructive Q-Matrix Identifiability via Novel Tensor Unfolding</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            <em>Yuqi Gu&#9993;</em>
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Psychometrika</em> (2026), 91: 131–150.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-  
-  
-    [<a href="https://doi.org/10.1017/psy.2025.10078" target="_blank">Journal</a>]
-  
-  
-  
-    [<a href="https://yuqigu.github.io/assets/pdf/Q_unfold_final.pdf" target="_blank">PDF</a>]
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="lyu2025sola">
-  
-    <span class="title">Spectral Clustering with Likelihood Refinement for High-dimensional Latent Class Recovery</span>
+    <span class="title">Degree-heterogeneous Latent Class Analysis for High-dimensional Discrete Data</span>
     <br />
     <span class="author">
       
@@ -1321,6 +851,16 @@
             
               
                 <u>Zhongyuan Lyu</u>,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                <u>Ling Chen</u>,
               
             
           
@@ -1341,7 +881,7 @@
     
     <span class="periodical">
     
-      <em>Psychometrika</em> (2026), 91: 695–723.
+      <em>Journal of the American Statistical Association</em> (2025), 120 (552): 2435–2448.
     
     </span>
   
@@ -1350,11 +890,66 @@
   <span class="links">
   
   
-    [<a href="http://arxiv.org/abs/2506.07167" target="_blank">arXiv</a>]
+    [<a href="http://arxiv.org/abs/2402.18745" target="_blank">arXiv</a>]
   
   
   
-    [<a href="https://doi.org/10.1017/psy.2026.10095" target="_blank">Journal</a>]
+    [<a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2455198" target="_blank">Journal</a>]
+  
+  
+  
+  
+  
+  
+  
+    [<a href="https://github.com/lscientific/DhLCM" target="_blank">Code</a>]
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+</div>
+</li>
+</ul>
+</li>
+<li><ul style="margin-bottom: 20px;list-style-type:disc">
+<li>
+
+
+<div id="gu2024bless">
+  
+    <span class="title">Blessing of Dependence: Identifiability and Geometry of Discrete Models with Multiple Binary Latent Variables</span>
+    <br />
+    <span class="author">
+      
+      
+        
+          
+            <em>Yuqi Gu&#9993;</em>
+          
+        
+      
+    </span>
+
+    
+    <br />
+    
+    <span class="periodical">
+    
+      <em>Bernoulli</em> (2025), 31 (2): 948–972.
+    
+    </span>
+  
+
+<!-- <br> -->
+  <span class="links">
+  
+  
+    [<a href="http://arxiv.org/abs/2203.04403" target="_blank">arXiv</a>]
+  
+  
+  
+    [<a href="https://projecteuclid.org/journals/bernoulli/volume-31/issue-2/Blessing-of-dependence–Identifiability-and-geometry-of-discrete-models/10.3150/24-BEJ1754.full" target="_blank">Journal</a>]
   
   
   
@@ -1365,6 +960,180 @@
   </span>
 
   <!-- Hidden abstract block -->
+  
+</div>
+</li>
+</ul>
+</li></ol>
+</div>
+
+<h2 id="3-statistical-measurement-for-humans-and-ai-systems">3. Statistical measurement for humans and AI systems</h2>
+
+<p>Psychometrics provides an intellectual foundation for my work on statistical measurement through latent-variable models. I develop models and theory for measuring latent attributes, response processes, and heterogeneous performance in educational, psychological, biomedical, and other scientific settings.</p>
+
+<p>My recent work extends this measurement perspective to modern AI evaluation. Rather than reducing model behavior to a single aggregate score, I study structured variation in capabilities, reasoning behavior, semantic item structure, response accuracy, and chain-of-thought length. The goal is to build statistically grounded measurement frameworks for increasingly complex AI systems while maintaining a clear connection to the broader theory of latent-variable modeling.</p>
+
+<h3 id="selected-work-2">Selected work</h3>
+
+<div class="publications">
+<ol class="bibliography"><li><ul style="margin-bottom: 20px;list-style-type:disc">
+<li>
+
+
+<div id="liu2026cdm-llm">
+  
+    <span class="title">Scalable Text-Embedding-informed Cognitive Diagnosis of Large Language Models</span>
+    <br />
+    <span class="author">
+      
+      
+        
+          
+            
+              
+                <u>Jia Liu</u>,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                <u>Zhiyu Xu</u>,
+              
+            
+          
+        
+      
+        
+          
+            
+              and <em>Yuqi Gu&#9993;</em>.
+            
+          
+        
+      
+    </span>
+
+    
+    <span class="periodical">
+    
+      <em>arXiv preprint arXiv:2603.14676</em> (2026)
+    
+    </span>
+  
+
+<!-- <br> -->
+  <span class="links">
+  
+  
+    [<a href="http://arxiv.org/abs/2603.14676" target="_blank">arXiv</a>]
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+</div>
+</li>
+</ul>
+</li>
+<li><ul style="margin-bottom: 20px;list-style-type:disc">
+<li>
+
+
+<div id="xu2025lart">
+  
+    <span class="title">Latency-Response Theory Model: Evaluating Large Language Models via Response Accuracy and Chain-of-Thought Length</span>
+    <br />
+    <span class="author">
+      
+      
+        
+          
+            
+              
+                <u>Zhiyu Xu</u>,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                <u>Jia Liu</u>,
+              
+            
+          
+        
+      
+        
+          
+            
+              
+                
+                  Yixin Wang,
+                
+              
+            
+          
+        
+      
+        
+          
+            
+              and <em>Yuqi Gu&#9993;</em>
+            
+          
+        
+      
+    </span>
+
+    
+    <br />
+    
+    <span class="periodical">
+    
+      <em>Annals of Applied Statistics</em> (2026), accepted.
+    
+    </span>
+  
+
+<!-- <br> -->
+  <span class="links">
+  
+  
+    [<a href="http://arxiv.org/abs/2512.07019" target="_blank">arXiv</a>]
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    [<a href="https://github.com/Toby-X/Latency-Response-Theory-Model" target="_blank">Code</a>]
+  
+  </span>
+
+  <!-- Hidden abstract block -->
+  
+  <br />
+  <span class="abstract hidden">
+    <big> (This paper received <b>ASA Statistical Learning and Data Science (SLDS) Section 2026 Student Paper Award</b>) </big>
+  </span>
   
 </div>
 </li>
@@ -1501,852 +1270,6 @@
 </div>
 </li>
 </ul>
-</li></ol>
-
-<h2> 2025 </h2>
-
-<ol class="bibliography"><li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="lyu2024dhlcm">
-  
-    <span class="title">Degree-heterogeneous Latent Class Analysis for High-dimensional Discrete Data</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                <u>Zhongyuan Lyu</u>,
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                <u>Ling Chen</u>,
-              
-            
-          
-        
-      
-        
-          
-            
-              and <em>Yuqi Gu&#9993;</em>
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Journal of the American Statistical Association</em> (2025), 120 (552): 2435–2448.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2402.18745" target="_blank">arXiv</a>]
-  
-  
-  
-    [<a href="https://www.tandfonline.com/doi/full/10.1080/01621459.2025.2455198" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-    [<a href="https://github.com/lscientific/DhLCM" target="_blank">Code</a>]
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="gu2024bless">
-  
-    <span class="title">Blessing of Dependence: Identifiability and Geometry of Discrete Models with Multiple Binary Latent Variables</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            <em>Yuqi Gu&#9993;</em>
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Bernoulli</em> (2025), 31 (2): 948–972.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2203.04403" target="_blank">arXiv</a>]
-  
-  
-  
-    [<a href="https://projecteuclid.org/journals/bernoulli/volume-31/issue-2/Blessing-of-dependence–Identifiability-and-geometry-of-discrete-models/10.3150/24-BEJ1754.full" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="tian2023learning">
-  
-    <span class="title">Learning from Similar Linear Representations: Adaptivity, Minimaxity, and Robustness</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                
-                  Ye Tian,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              <em>Yuqi Gu</em>,
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  and Yang Feng
-                
-              
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Journal of Machine Learning Research</em> (2025), 26 (187): 1–125.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2303.17765" target="_blank">arXiv</a>]
-  
-  
-  
-    [<a href="https://jmlr.org/papers/v26/23-0902.html" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-    [<a href="https://github.com/ytstat/RL-MTL-TL" target="_blank">Code</a>]
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-  <br />
-  <span class="abstract hidden">
-    <big> (This paper received <b>ASA SLDS Section 2025 Student Paper Award</b>) </big>
-  </span>
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="liu2024ho">
-  
-    <span class="title">Exploratory General-response Cognitive Diagnostic Models with Higher-order Structures</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                <u>Jia Liu</u>,
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                <u>Seunghyun Lee</u>,
-              
-            
-          
-        
-      
-        
-          
-            
-              and <em>Yuqi Gu&#9993;</em>
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Psychometrika</em> (2025), 90: 1651–1678.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-  
-  
-    [<a href="https://www.cambridge.org/core/journals/psychometrika/article/exploratory-generalresponse-cognitive-diagnostic-models-with-higherorder-structures/3FCE19E598E8FC73DF7F547177D4BF5C#article" target="_blank">Journal</a>]
-  
-  
-  
-    [<a href="https://yuqigu.github.io/assets/pdf/higher_order_nov2024.pdf" target="_blank">PDF</a>]
-  
-  
-  
-  
-  
-    [<a href="https://github.com/liujiaaaa/HOGRCDM_V2" target="_blank">Code</a>]
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li></ol>
-
-<h2> 2024 </h2>
-
-<ol class="bibliography"><li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="gu2024deepcdm">
-  
-    <span class="title">Going Deep in Diagnostic Modeling: Deep Cognitive Diagnostic Models (DeepCDMs)</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            <em>Yuqi Gu&#9993;</em>
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Psychometrika</em> (2024), 89: 118–150.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-  
-  
-    [<a href="https://link.springer.com/article/10.1007/s11336-023-09941-6" target="_blank">Journal</a>]
-  
-  
-  
-    [<a href="https://yuqigu.github.io/assets/pdf/DeepCDM_Aug2023.pdf" target="_blank">PDF</a>]
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="lee2024lcbn">
-  
-    <span class="title">Latent Conjunctive Bayesian Network: Unify Attribute Hierarchy and Bayesian Network for Cognitive Diagnosis</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                <u>Seunghyun Lee</u>,
-              
-            
-          
-        
-      
-        
-          
-            
-              and <em>Yuqi Gu&#9993;</em>
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Annals of Applied Statistics</em> (2024), 18 (3): 1988–2011.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2301.03665" target="_blank">arXiv</a>]
-  
-  
-  
-    [<a href="https://projecteuclid.org/journals/annals-of-applied-statistics/volume-18/issue-3/Latent-conjunctive-Bayesian-network–Unify-attribute-hierarchy-and-Bayesian/10.1214/23-AOAS1867.full" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-    [<a href="https://github.com/seunghyun-stats/Latent-conjunctive-Bayesian-network" target="_blank">Code</a>]
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-  <br />
-  <span class="abstract hidden">
-    <big> (This paper received <b>2024 Institute of Mathematical Statistics (IMS) Hannan Graduate Student Travel Award</b>) </big>
-  </span>
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="chen2024gom">
-  
-    <span class="title">A Spectral Method for Identifiable Grade of Membership Analysis with Binary Responses</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                <u>Ling Chen</u>,
-              
-            
-          
-        
-      
-        
-          
-            
-              and <em>Yuqi Gu&#9993;</em>
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Psychometrika</em> (2024), 89: 626–657.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2305.03149" target="_blank">arXiv</a>]
-  
-  
-  
-    [<a href="https://link.springer.com/article/10.1007/s11336-024-09951-y" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-    [<a href="https://github.com/lingc77/spectral_GoM" target="_blank">Code</a>]
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="lee2024gr">
-  
-    <span class="title">New Paradigm of Identifiable General-response Cognitive Diagnostic Models: Beyond Categorical Data</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                <u>Seunghyun Lee</u>,
-              
-            
-          
-        
-      
-        
-          
-            
-              and <em>Yuqi Gu&#9993;</em>
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Psychometrika</em> (2024), 89: 1304–1336.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-  
-  
-    [<a href="https://link.springer.com/article/10.1007/s11336-024-09983-4" target="_blank">Journal</a>]
-  
-  
-  
-    [<a href="https://yuqigu.github.io/assets/pdf/GR-CDM_final.pdf" target="_blank">PDF</a>]
-  
-  
-  
-  
-  
-    [<a href="https://github.com/seunghyun-stats/General-Response-CDM/tree/main" target="_blank">Code</a>]
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-  <br />
-  <span class="abstract hidden">
-    <big> (This paper received <b>2023 Psychometric Society Student Travel Award</b>) </big>
-  </span>
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="alexandr2024">
-  
-    <span class="title">New directions in algebraic statistics: Three challenges from 2023</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                
-                  Yulia Alexandr,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Miles Bakenhus,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Mark Curiel,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Sameer K. Deshpande,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Elizabeth Gross,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              <em>Yuqi Gu</em>,
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Max Hill,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Joseph Johnson,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Bryson Kagy,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Vishesh Karwa,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Jiayi Li,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Hanbaek Lyu,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Sonja Petrovic,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  and Jose Israel Rodriguez
-                
-              
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Algebraic Statistics</em> (2024), 15 (2): 357–382.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2402.13961" target="_blank">arXiv</a>]
-  
-  
-  
-    [<a href="https://msp.org/astat/2024/15-2/p09.xhtml" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li></ol>
-
-<h2> 2023 </h2>
-
-<ol class="bibliography"><li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="gu2023bp">
-  
-    <span class="title">Bayesian Pyramids: Identifiable Multilayer Discrete Latent Structure Models for Discrete Data</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              <em>Yuqi Gu&#9993;</em>,
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  and David B. Dunson
-                
-              
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Journal of the Royal Statistical Society Series B: Statistical Methodology</em> (2023), 85 (2): 399–426.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2101.10373" target="_blank">arXiv</a>]
-  
-  
-  
-    [<a href="https://academic.oup.com/jrsssb/advance-article/doi/10.1093/jrsssb/qkad010/7074362" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-    [<a href="https://github.com/yuqigu/BayesianPyramids" target="_blank">Code</a>]
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
 </li>
 <li><ul style="margin-bottom: 20px;list-style-type:disc">
 <li>
@@ -2414,736 +1337,20 @@
 </div>
 </li>
 </ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="gu2023grom3">
-  
-    <span class="title">Dimension-Grouped Mixed Membership Models for Multivariate Categorical Data</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              <em>Yuqi Gu&#9993;</em>,
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Elena A. Erosheva,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Gongjun Xu,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  and David B. Dunson
-                
-              
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Journal of Machine Learning Research</em> (2023), 24 (88): 1–49.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2109.11705" target="_blank">arXiv</a>]
-  
-  
-  
-    [<a href="https://jmlr.org/papers/v24/21-1513.html" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="gu2022generic_dina">
-  
-    <span class="title">Generic Identifiability of the DINA Model and Blessing of Latent Dependence</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            <em>Yuqi Gu&#9993;</em>
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Psychometrika</em> (2023), 88: 117–131.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-  
-  
-    [<a href="https://link.springer.com/article/10.1007/s11336-022-09886-2" target="_blank">Journal</a>]
-  
-  
-  
-    [<a href="https://yuqigu.github.io/assets/pdf/GI_DINA.pdf" target="_blank">PDF</a>]
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="zeng2022tensor">
-  
-    <span class="title">A Tensor-EM Method for Large-Scale Latent Class Analysis with Binary Responses</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                
-                  Zhenghao Zeng,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              <em>Yuqi Gu</em>,
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  and Gongjun Xu
-                
-              
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Psychometrika</em> (2023), 88 (2): 580–612.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/2103.16036" target="_blank">arXiv</a>]
-  
-  
-  
-    [<a href="https://link.springer.com/article/10.1007/s11336-022-09887-1" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="gu2022hlam">
-  
-    <span class="title">Identifiability of Hierarchical Latent Attribute Models</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              <em>Yuqi Gu</em>,
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  and Gongjun Xu
-                
-              
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Statistica Sinica</em> (2023), 33: 2561–2591.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/1906.07869" target="_blank">arXiv</a>]
-  
-  
-  
-    [<a href="http://www3.stat.sinica.edu.tw/ss_newpaper/SS-2021-0350_na.pdf" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="discuss2023">
-  
-    <span class="title">Discussion of “Vintage Factor Analysis with Varimax Performs Statistical Inference” by Rohe and Zeng</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              
-                
-                  Yinqiu He,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              <em>Yuqi Gu</em>,
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  and Zhiliang Ying
-                
-              
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Journal of the Royal Statistical Society Series B: Statistical Methodology</em> (2023), 85 (4): 1071–1074.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-  
-  
-    [<a href="https://academic.oup.com/jrsssb/advance-article/doi/10.1093/jrsssb/qkad036/7103617" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
 </li></ol>
-
-<h2> Before 2022 </h2>
-
-<ol class="bibliography"><li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="gu2021sufficient">
-  
-    <span class="title">Sufficient and Necessary Conditions for the Identifiability of the Q-matrix</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              <em>Yuqi Gu</em>,
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  and Gongjun Xu
-                
-              
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Statistica Sinica</em> (2021), 31: 449–472.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/1810.03819" target="_blank">arXiv</a>]
-  
-  
-  
-    [<a href="http://www3.stat.sinica.edu.tw/statistica/J31N1/J31N118/J31N118.html" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
 </div>
-</li>
+
+<h2 id="current-directions">Current directions</h2>
+
+<ul>
+  <li>Learning the unknown depth, width, and connectivity of latent architectures.</li>
+  <li>Developing finite-sample theory and uncertainty quantification for high-dimensional latent representations.</li>
+  <li>Studying causal relationships among latent representations across heterogeneous environments.</li>
+  <li>Characterizing when spectral, tensor, and likelihood-based methods achieve optimal recovery.</li>
+  <li>Building statistical measurement frameworks for increasingly complex AI systems.</li>
 </ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
 
-
-<div id="gu2020partial">
-  
-    <span class="title">Partial Identifiability of Restricted Latent Class Models</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              <em>Yuqi Gu</em>,
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  and Gongjun Xu
-                
-              
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Annals of Statistics</em> (2020), 48 (4): 2082–2107.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/1803.04353" target="_blank">arXiv</a>]
-  
-  
-  
-    [<a href="https://projecteuclid.org/journals/annals-of-statistics/volume-48/issue-4/Partial-identifiability-of-restricted-latent-class-models/10.1214/19-AOS1878.short" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="gu2019learning">
-  
-    <span class="title">Learning Attribute Patterns in High-dimensional Structured Latent Attribute Models</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              <em>Yuqi Gu</em>,
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  and Gongjun Xu
-                
-              
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Journal of Machine Learning Research</em> (2019), 20 (1): 1–58.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/1904.04378" target="_blank">arXiv</a>]
-  
-  
-  
-    [<a href="https://jmlr.org/papers/v20/19-197.html" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="gu2019sufficient">
-  
-    <span class="title">The Sufficient and Necessary Condition for the Identifiability and Estimability of the DINA Model</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              <em>Yuqi Gu</em>,
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  and Gongjun Xu
-                
-              
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Psychometrika</em> (2019), 84 (2): 468–483.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-    [<a href="http://arxiv.org/abs/1711.03174" target="_blank">arXiv</a>]
-  
-  
-  
-    [<a href="https://link.springer.com/article/10.1007/s11336-018-9619-8" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li>
-<li><ul style="margin-bottom: 20px;list-style-type:disc">
-<li>
-
-
-<div id="gu2018hypothesis">
-  
-    <span class="title">Hypothesis Testing of the Q-matrix</span>
-    <br />
-    <span class="author">
-      
-      
-        
-          
-            
-              <em>Yuqi Gu</em>,
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Jingchen Liu,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  Gongjun Xu,
-                
-              
-            
-          
-        
-      
-        
-          
-            
-              
-                
-                  and Zhiliang Ying
-                
-              
-            
-          
-        
-      
-    </span>
-
-    
-    <br />
-    
-    <span class="periodical">
-    
-      <em>Psychometrika</em> (2018), 83 (3): 515–537.
-    
-    </span>
-  
-
-<!-- <br> -->
-  <span class="links">
-  
-  
-  
-  
-    [<a href="https://link.springer.com/article/10.1007/s11336-018-9629-6" target="_blank">Journal</a>]
-  
-  
-  
-  
-  
-  
-  
-  </span>
-
-  <!-- Hidden abstract block -->
-  
-</div>
-</li>
-</ul>
-</li></ol>
-
-</div>
+<p>For the complete chronological record, including all older publications, see <a href="/publications/">Publications</a>.</p>
 
   </article>
 
