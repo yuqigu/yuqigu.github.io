@@ -1,11 +1,11 @@
 ---
 layout: page
-permalink: /research/
-title: Research
+permalink: /publications/
+title: Publications
 description: 
 publication_years: [2026, 2025, 2024, 2023]
 nav: true
-page_order: 1 
+page_order: 2
 ---
 
 <div class="publications">

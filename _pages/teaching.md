@@ -4,7 +4,7 @@ permalink: /teaching/
 title: Mentoring and Teaching
 description: 
 nav: true
-page_order: 2
+page_order: 3
 ---
 
 ### Mentoring
@@ -56,7 +56,6 @@ page_order: 2
 + Statistics GR5205 /  GU4205: Linear Regression Models. Fall 2022.
 + Statistics GR6102: Applied Statistics II. Spring 2022.
 + Statistics GR5205 /  GU4205: Linear Regression Models. Fall 2021.
-
 
 
 
