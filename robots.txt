@@ -1,1 +1,1 @@
-Sitemap: https://yuqigu.github.io/sitemap.xml
+Sitemap: yuqigu.github.io/sitemap.xml
