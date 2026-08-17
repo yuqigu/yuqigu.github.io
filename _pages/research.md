@@ -32,7 +32,7 @@ A related line of work studies causal structure among latent variables. I develo
 ### Selected work
 
 <div class="publications">
-{% bibliography -f papers -q @*[key=lee2025dde || key=zhang2026dcrl || key=lee2025causal || key=gu2025unfold || key=gu2023bp]* %}
+{% bibliography -f papers -q @*[key=lee2025dde || key=zhang2026dcrl || key=lee2025causal || key=gu2025unfold-q || key=gu2024bless || key=gu2023bp]* %}
 </div>
 
 ## 2. High-dimensional statistical inference with latent structure
@@ -44,7 +44,7 @@ Recent work moves beyond idealized local-independence assumptions by modeling la
 ### Selected work
 
 <div class="publications">
-{% bibliography -f papers -q @*[key=chen2024local || key=gu2024atc || key=lyu2024dhlcm || key=gu2024bless || key=huang2025copo || key=lee2026local]* %}
+{% bibliography -f papers -q @*[key=chen2024local || key=gu2024atc || key=lyu2024dhlcm || key=lyu2025sola || key=huang2025copo || key=lee2026local]* %}
 </div>
 
 ## 3. Statistical measurement for humans and AI systems
@@ -56,7 +56,7 @@ My recent work extends this measurement perspective to modern AI evaluation. Rat
 ### Selected work
 
 <div class="publications">
-{% bibliography -f papers -q @*[key=xu2025lart || key=liu2026cdm-llm || key=liu2025exploratory || key=kang2024mmmpd || key=gu2022joint]* %}
+{% bibliography -f papers -q @*[key=xu2025lart || key=liu2026cdm-llm || key=liu2025exploratory || key=kang2024mmmpd || key=gu2023grom3 || key=gu2022joint]* %}
 </div>
 
 ## Current directions
