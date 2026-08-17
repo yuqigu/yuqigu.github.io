@@ -4,7 +4,7 @@ permalink: /news_archive/
 title: News Archive
 description: 
 nav: true
-page_order: 4
+page_order: 5
 ---
 
 ### Honors, Awards, and Grants
@@ -95,6 +95,5 @@ page_order: 4
 + Jointly with Can Le (UC Davis), Xiaodong Li (UC Davis), Jiashun Jin (Carnegie Mellon University), and Ji Zhu (University of Michigan), we are organizing the 2026 [Workshop on Statistical Network Analysis and Beyond (SNAB)](https://sites.google.com/view/snab-workshop-2026) in Vietnam, from June 8 -- June 10, 2026.
 + Jointly with Yuxin Chen, Cong Ma, and Anru Zhang, we are organizing a week-long workshop [Statistics meets Tensors: Methodology, Theory, and Applications](https://www.imsi.institute/activities/statistics-meets-tensors/) at IMSI, Chicago in May 2025.
 + Jointly with Jingchen Liu and Zhiliang Ying, we are organizing a two-day [Psychometrics Workshop](https://sites.google.com/view/psychometrics-2023-columbia) at Columbia University in September 2023.
-
 
 

@@ -1,7 +1,7 @@
 <header>
 
     <!-- Nav Bar -->
-    <nav id="navbar" class="navbar navbar-light navbar-expand-sm {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
+    <nav id="navbar" class="navbar navbar-light navbar-expand-lg {% if site.navbar_fixed %}fixed-top{% else %}sticky-top{% endif %}">
     <div class="container">
       {% if page.title != "About" %}
       <a class="navbar-brand title font-weight-lighter" href="{{ site.baseurl }}">
@@ -48,7 +48,7 @@
           {% if p.nav and p.autogen == nil %}
           <li class="nav-item {% if page.title == p.title %}active{% endif %}">
               <a class="nav-link" href="{{ p.url | relative_url }}">
-                {{ p.title }}
+                {{ p.nav_title | default: p.title }}
                 {% if page.title == p.title %}
                 <span class="sr-only">(current)</span>
                 {% endif %}
