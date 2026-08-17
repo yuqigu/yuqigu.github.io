@@ -17,6 +17,7 @@
     <span class="title">{{entry.title}}</span>
     <br>
     <span class="author">
+      {% assign supervised_first_names = "Wenjin,Seunghyun,Ling,Chengzhu,Zhongyuan,Jia,Zhiyu" | split: "," %}
       {% for author in entry.author_array %}
         {% if forloop.length == 1 %}
           {% if author.first == "Yuqi" %}
@@ -29,7 +30,7 @@
             {% if author.first == "Yuqi" %}
               <em>{{author.first}} {{author.last}}</em>,
             {% else %}
-              {% if author.first == "Seunghyun" or author.first == "Ling" or author.first == "Chengzhu" or author.first == "Zhongyuan" or author.first == "Jia" %}
+              {% if supervised_first_names contains author.first %}
                 <u>{{author.first}} {{author.last}}</u>,
               {% else %}
                 {% if site.data.coauthors[author.last] %}
@@ -43,8 +44,8 @@
             {% if author.first == "Yuqi" %}
               and <em>{{author.first}} {{author.last}}</em>{% if entry.pubtype == 'preprint' %}.{% endif %}
             {% else %}
-              {% if author.first == "Seunghyun" or author.first == "Ling" or author.first == "Chengzhu" or author.first == "Zhongyuan" %}
-                <u>{{author.first}} {{author.last}}</u>,
+              {% if supervised_first_names contains author.first %}
+                and <u>{{author.first}} {{author.last}}</u>{% if entry.pubtype == 'preprint' %}.{% endif %}
               {% else %}
                 {% if site.data.coauthors[author.last] %}
                   and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>{% if entry.pubtype == 'preprint' %}.{% endif %}
@@ -88,7 +89,7 @@
     [<a href="{{ entry.psyarxiv }}" target="_blank">PsyArXiv</a>]
   {% endif %}
   {% if entry.pdf %}
-    [<a href="https://stat.columbia.edu/~yuqigu/assets/pdf/{{ entry.pdf }}" target="_blank">PDF</a>]
+    [<a href="https://yuqigu.github.io/assets/pdf/{{ entry.pdf }}" target="_blank">PDF</a>]
   {% endif %}
   {% if entry.supp %}
     [<a href="{{ entry.supp | prepend: '/assets/pdf/' | prepend: site.baseurl | prepend: site.url }}" target="_blank">Supp</a>]

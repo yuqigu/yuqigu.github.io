@@ -3,7 +3,7 @@ layout: page
 permalink: /research/
 title: Research
 description: 
-years: [2023, 2022, 2021, 2020, 2019, 2018]
+publication_years: [2026, 2025, 2024, 2023]
 nav: true
 page_order: 1 
 ---
@@ -19,9 +19,24 @@ page_order: 1
 
 {% bibliography -f papers -q @*[pubtype=preprint]* %}
 
-<h2> Publications </h2>
+<h2> 2026 </h2>
 
-{% bibliography -f papers -q @*[pubtype=pub]* %}
+{% bibliography -f papers -q @*[pubtype=pub && year=2026]* %}
 
+<h2> 2025 </h2>
+
+{% bibliography -f papers -q @*[pubtype=pub && year=2025]* %}
+
+<h2> 2024 </h2>
+
+{% bibliography -f papers -q @*[pubtype=pub && year=2024]* %}
+
+<h2> 2023 </h2>
+
+{% bibliography -f papers -q @*[pubtype=pub && year=2023]* %}
+
+<h2> Before 2022 </h2>
+
+{% bibliography -f papers -q @*[pubtype=pub && year<2022]* %}
 
 </div>

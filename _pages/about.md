@@ -23,18 +23,14 @@ In 2020 I received a Ph.D. in [Statistics](https://lsa.umich.edu/stats){:target=
 In 2015 I received a B.S. in [Mathematics](https://math.tsinghua.edu.cn/){:target="\_blank"} from [Tsinghua University](https://www.tsinghua.edu.cn/en/index.htm){:target="\_blank"}.
 My first name can be pronounced as `/ju:-tʃi:/`. My name in Chinese is 顾雨琦.
 
-My research centers around investigating **unobserved latent structures** widely present in statistics, machine learning,  psychometrics and other applications:
-+ **Deep generative models and statistical machine learning**: I study the identifiability and other essential properties inherent in deep nonlinear models and probabilistic graphical models with latent representations. One goal is to propose more interpretable models and discover potential causal explanations.
-+ **High-dimensional statistics with latent structures**: The high dimensionality and the latent structures pose double challenges to statistical analyses. I aim to develop computationally efficient and statistically accurate methods with theoretical guarantees to recover latent structures and quantify uncertainty.
-+ **Latent variable modeling in psychometrics and beyond**: I develop principled statistical methods and theory to model educational and psychological data with substantively meaningful latent traits such as skills, attitudes, etc. I am also interested in other applications of latent variable modeling in biomedical sciences.
+My research develops statistical theory and methods for uncovering **latent structure** in modern complex data. A unifying theme is to make latent structure and representation learning identifiable, interpretable, computationally scalable, and statistically reliable.
++ **Identifiable deep generative models and causal representation learning**: I study identifiability, latent graph discovery, and causal representation learning in nonlinear probabilistic graphical models with latent structures.
++ **High-dimensional statistical inference for latent structure**: The high dimensionality and latent structure pose double statistical challenges. I develop spectral, tensor, and likelihood-based methods for mixture, mixed-membership, and nonlinear low-rank representation problems, with finite-sample theory and uncertainty quantification.
++ **Latent variable models for psychometrics, heterogeneous data, and AI evaluation**: I propose principled latent variable models for educational, psychological, biomedical, and language-model data, including cognitive diagnosis, item response theory, and psychometric frameworks for evaluating large language models (LLMs).
 
-My research is partially supported by NSF Grant [DMS-2210796 (sole PI)](https://www.nsf.gov/awardsearch/showAward?AWD_ID=2210796&HistoricalAwards=false).
+[Here is my CV]({{ '/assets/pdf/YuqiGu_CV.pdf' | relative_url }}).
 
-[Here is my Curriculum Vitae (updated in June 2025)](https://drive.google.com/file/d/14f6tEoziSUGsoOS2bJ2ImiXoEQk0hUak/view?usp=sharing).
-
-
-
-
+{% include representative_papers.html %}
 
 
 
