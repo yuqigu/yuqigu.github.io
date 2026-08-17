@@ -59,6 +59,7 @@ My recent work extends this measurement perspective to modern AI evaluation. Rat
 {% bibliography -f papers -q @*[key=xu2025lart || key=liu2026cdm-llm || key=liu2025exploratory || key=kang2024mmmpd || key=gu2023grom3 || key=gu2022joint]* %}
 </div>
 
+{% comment %}
 ## Current directions
 
 + Learning the unknown depth, width, and connectivity of latent architectures.
@@ -66,5 +67,6 @@ My recent work extends this measurement perspective to modern AI evaluation. Rat
 + Studying causal relationships among latent representations across heterogeneous environments.
 + Characterizing when spectral, tensor, and likelihood-based methods achieve optimal recovery.
 + Building statistical measurement frameworks for increasingly complex AI systems.
+{% endcomment %}
 
 For the complete chronological record, including all older publications, see [Publications]({{ '/publications/' | relative_url }}).
