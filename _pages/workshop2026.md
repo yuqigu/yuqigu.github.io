@@ -8,7 +8,7 @@ description: Columbia University workshop on Statistical Foundations of Latent S
 nav: true
 page_order: 4
 standalone_nav: true
-custom_css: /assets/css/workshop2026.css?v=20260818-unified-sections
+custom_css: /assets/css/workshop2026.css?v=20260818-speaker-order-note
 ---
 
 <main class="workshop-page">
@@ -38,6 +38,7 @@ custom_css: /assets/css/workshop2026.css?v=20260818-unified-sections
   <!-- Workshop speakers -->
   <section class="workshop-section workshop-speakers" aria-labelledby="speakers-heading">
     <h2 id="speakers-heading">Speakers</h2>
+    <p class="speaker-order-note">Speakers are listed alphabetically by last name.</p>
     <div class="speaker-grid">
       <a class="speaker-card" href="https://bunea.stat.cornell.edu/" target="_blank" rel="noopener noreferrer">
         <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/bunea-florentina.webp' | relative_url }}" alt="Portrait of Florentina Bunea" width="320" height="320" loading="lazy" decoding="async"></div>
