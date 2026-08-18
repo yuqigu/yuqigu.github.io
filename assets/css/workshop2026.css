@@ -124,15 +124,15 @@
   content: "";
 }
 
-.workshop-about {
-  max-width: 49rem;
-}
-
 .workshop-about p,
 .workshop-details p {
   color: #303c43;
   font-size: 1.02rem;
   line-height: 1.78;
+}
+
+.workshop-about p {
+  text-align: left;
 }
 
 .workshop-about p:last-child,
@@ -215,10 +215,6 @@
   color: var(--workshop-muted) !important;
   font-size: 0.92rem;
   line-height: 1.45;
-}
-
-.workshop-details {
-  max-width: 49rem;
 }
 
 .workshop-details__lead {
