@@ -19,51 +19,73 @@
 
 .workshop-hero {
   position: relative;
+  isolation: isolate;
   overflow: hidden;
   margin-bottom: clamp(3.25rem, 7vw, 5.5rem);
-  padding: clamp(2.6rem, 6vw, 4.75rem) clamp(1.5rem, 5vw, 4.25rem);
+  padding: clamp(3rem, 5.5vw, 4.35rem) clamp(1.5rem, 5vw, 4.25rem);
   border: 1px solid rgba(35, 101, 139, 0.16);
   border-radius: 0.75rem;
-  background: linear-gradient(135deg, var(--workshop-blue-pale) 0%, #f8fbfd 100%);
+  background:
+    radial-gradient(circle at 4% 10%, rgba(185, 217, 235, 0.2), transparent 29%),
+    radial-gradient(circle at 96% 90%, rgba(185, 217, 235, 0.18), transparent 31%),
+    linear-gradient(135deg, #fbfdfe 0%, #f7fbfd 48%, #fdfefe 100%);
 }
 
 .workshop-hero::after {
   position: absolute;
-  right: -5rem;
-  bottom: -7rem;
-  width: 15rem;
-  height: 15rem;
-  border: 2.5rem solid rgba(185, 217, 235, 0.3);
-  border-radius: 50%;
+  z-index: 1;
+  inset: 0;
+  background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0.94) 0%, rgba(255, 255, 255, 0.82) 38%, rgba(255, 255, 255, 0.18) 70%, transparent 84%);
+  pointer-events: none;
   content: "";
+}
+
+.workshop-hero__figure {
+  position: absolute;
+  z-index: 0;
+  inset: 0;
+  opacity: 0.82;
+  pointer-events: none;
+}
+
+.workshop-hero__figure img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.workshop-hero__content {
+  position: relative;
+  z-index: 2;
+  max-width: 64rem;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .workshop-hero__accent {
   width: 3.75rem;
   height: 0.22rem;
-  margin-bottom: 1.4rem;
+  margin: 0 auto 1.35rem;
   border-radius: 999px;
   background: var(--workshop-blue-deep);
 }
 
 .workshop-hero h1 {
-  position: relative;
-  z-index: 1;
-  max-width: 48rem;
-  margin: 0 0 1.55rem;
+  margin: 0 auto 1.35rem;
   font-family: "Roboto Slab", Georgia, serif;
-  font-size: clamp(2rem, 5vw, 3.7rem);
+  font-size: clamp(2rem, 3.9vw, 3rem);
   font-weight: 400;
   letter-spacing: -0.025em;
-  line-height: 1.12;
+  line-height: 1.1;
+  text-align: center;
 }
 
 .workshop-hero__date,
 .workshop-hero__location {
-  position: relative;
-  z-index: 1;
   margin: 0;
   line-height: 1.5;
+  text-align: center;
 }
 
 .workshop-hero__date {
@@ -205,15 +227,120 @@
   font-size: 1.08rem !important;
 }
 
+.workshop-poster__panel {
+  padding: clamp(1.4rem, 3.5vw, 2.1rem);
+  border: 1px solid rgba(35, 101, 139, 0.2);
+  border-radius: 0.7rem;
+  background: linear-gradient(135deg, rgba(238, 246, 250, 0.92), rgba(248, 251, 253, 0.72));
+  box-shadow: 0 0.75rem 2rem rgba(29, 43, 52, 0.05);
+}
+
+.workshop-poster__panel > p:first-child {
+  margin-top: 0;
+}
+
+.workshop-poster__facts {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1.25fr;
+  margin: 1.6rem 0;
+  padding: 1.15rem 0;
+  border-top: 1px solid rgba(35, 101, 139, 0.18);
+  border-bottom: 1px solid rgba(35, 101, 139, 0.18);
+}
+
+.workshop-poster__facts > div {
+  min-width: 0;
+  padding: 0 1rem;
+}
+
+.workshop-poster__facts > div:first-child {
+  padding-left: 0;
+}
+
+.workshop-poster__facts > div:last-child {
+  padding-right: 0;
+}
+
+.workshop-poster__facts > div + div {
+  border-left: 1px solid rgba(35, 101, 139, 0.16);
+}
+
+.workshop-poster__facts dt {
+  margin-bottom: 0.38rem;
+  color: var(--workshop-blue-deep);
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.055em;
+  line-height: 1.4;
+  text-transform: uppercase;
+}
+
+.workshop-poster__facts dd {
+  margin: 0;
+  color: var(--workshop-ink);
+  font-size: 0.94rem;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.workshop-poster__support {
+  margin-bottom: 1.45rem;
+}
+
+.workshop-poster__action {
+  margin: 0;
+}
+
+.workshop-page .workshop-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.85rem;
+  padding: 0.68rem 1.25rem;
+  border: 1px solid var(--workshop-blue-deep);
+  border-radius: 0.35rem;
+  background: var(--workshop-blue-deep);
+  color: #fff !important;
+  font-size: 0.96rem;
+  font-weight: 600;
+  line-height: 1.25;
+  text-decoration: none;
+  transition: background-color 160ms ease, border-color 160ms ease, transform 160ms ease;
+}
+
+.workshop-page .workshop-button:hover {
+  border-color: #194d6b;
+  background: #194d6b;
+  color: #fff !important;
+  text-decoration: none;
+  transform: translateY(-1px);
+}
+
+.workshop-page .workshop-button:focus-visible {
+  outline: 3px solid rgba(35, 101, 139, 0.35);
+  outline-offset: 3px;
+}
+
 .workshop-organizer a:focus-visible {
   outline: 3px solid var(--workshop-blue-deep);
   outline-offset: 3px;
 }
 
 @media (max-width: 991.98px) {
+  .workshop-hero__figure {
+    opacity: 0.58;
+  }
+
   .speaker-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 2rem 1.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .workshop-hero__title-line {
+    display: block;
+    white-space: nowrap;
   }
 }
 
@@ -229,8 +356,12 @@
     padding-left: 1.35rem;
   }
 
+  .workshop-hero__figure {
+    display: none;
+  }
+
   .workshop-hero::after {
-    right: -7rem;
+    display: none;
   }
 
   .workshop-section h2 {
@@ -248,10 +379,31 @@
     margin-right: auto;
     margin-left: auto;
   }
+
+  .workshop-poster__facts {
+    grid-template-columns: minmax(0, 1fr);
+    padding: 0;
+  }
+
+  .workshop-poster__facts > div,
+  .workshop-poster__facts > div:first-child,
+  .workshop-poster__facts > div:last-child {
+    padding: 0.9rem 0;
+  }
+
+  .workshop-poster__facts > div + div {
+    border-top: 1px solid rgba(35, 101, 139, 0.16);
+    border-left: 0;
+  }
+
+  .workshop-page .workshop-button {
+    width: 100%;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
-  .speaker-card {
+  .speaker-card,
+  .workshop-page .workshop-button {
     transition: none;
   }
 }
