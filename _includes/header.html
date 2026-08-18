@@ -13,6 +13,17 @@
           {% include social.html %}
         </div>
       {% endif %}
+      {% if page.standalone_nav %}
+      <!-- Standalone page navigation -->
+      <ul class="navbar-nav ml-auto flex-row">
+        <li class="nav-item active">
+          <a class="nav-link pr-0" href="{{ page.url | relative_url }}" aria-current="page">
+            {{ page.nav_title | default: page.title }}
+            <span class="sr-only">(current)</span>
+          </a>
+        </li>
+      </ul>
+      {% else %}
       <!-- Navbar Toggle -->
       <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="sr-only">Toggle navigation</span>
@@ -70,6 +81,7 @@
           {% endif %}
         </ul>
       </div>
+      {% endif %}
     </div>
   </nav>
 
