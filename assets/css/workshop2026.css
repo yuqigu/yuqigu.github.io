@@ -140,6 +140,14 @@
   margin-bottom: 0;
 }
 
+.speaker-order-note {
+  margin: -0.85rem 0 1.5rem;
+  color: var(--workshop-muted) !important;
+  font-size: 0.93rem;
+  font-style: italic;
+  line-height: 1.5;
+}
+
 .speaker-grid {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
