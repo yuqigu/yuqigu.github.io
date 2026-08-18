@@ -8,7 +8,7 @@ description: Columbia University workshop on Statistical Foundations of Latent S
 nav: true
 page_order: 4
 standalone_nav: true
-custom_css: /assets/css/workshop2026.css?v=20260818-centered-hero
+custom_css: /assets/css/workshop2026.css?v=20260818-unified-sections
 ---
 
 <main class="workshop-page">
