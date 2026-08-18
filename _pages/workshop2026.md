@@ -8,23 +8,31 @@ description: Columbia University workshop on Statistical Foundations of Latent S
 nav: true
 page_order: 4
 standalone_nav: true
-custom_css: /assets/css/workshop2026.css
+custom_css: /assets/css/workshop2026.css?v=20260818-centered-hero
 ---
 
 <main class="workshop-page">
   <!-- Workshop hero -->
   <section class="workshop-hero" aria-labelledby="workshop-title">
-    <div class="workshop-hero__accent" aria-hidden="true"></div>
-    <h1 id="workshop-title">Statistical Foundations of Latent Structure and Representation Learning</h1>
-    <p class="workshop-hero__date">November 4–5, 2026</p>
-    <p class="workshop-hero__location">Columbia University <span aria-hidden="true">·</span> New York City</p>
+    <div class="workshop-hero__figure" aria-hidden="true">
+      <img src="{{ '/assets/img/workshop2026/latent-manifold-frame.svg' | relative_url }}" alt="">
+    </div>
+    <div class="workshop-hero__content">
+      <div class="workshop-hero__accent" aria-hidden="true"></div>
+      <h1 id="workshop-title">
+        <span class="workshop-hero__title-line">Statistical Foundations of Latent</span>
+        <span class="workshop-hero__title-line">Structure and Representation Learning</span>
+      </h1>
+      <p class="workshop-hero__date">November 4–5, 2026</p>
+      <p class="workshop-hero__location">Department of Statistics, Columbia University <span aria-hidden="true">·</span> New York City</p>
+    </div>
   </section>
 
   <!-- Workshop overview -->
   <section class="workshop-section workshop-about" aria-labelledby="about-heading">
     <h2 id="about-heading">About</h2>
-    <p>Modern statistical and machine learning problems increasingly rely on uncovering latent structure and learning informative representations from complex, high-dimensional data. Fundamental questions concerning identifiability, statistical efficiency, uncertainty quantification, computation, causality, and interpretability arise across latent variable models, high-dimensional statistics, networks, and modern representation learning.</p>
-    <p>This two-day workshop brings together researchers from statistics, machine learning, data science, and related fields to discuss recent advances and emerging connections in the statistical foundations of latent structure and representation learning.</p>
+    <p>Many modern problems in statistics and machine learning depend on uncovering latent structure and learning informative representations from complex, high-dimensional data. These problems raise fundamental questions about identifiability, statistical efficiency, uncertainty quantification, computation, causality, and interpretability, with connections spanning latent variable models, high-dimensional statistics, networks, and modern representation learning.</p>
+    <p>This two-day workshop brings together researchers from statistics, machine learning, data science, and related fields to discuss recent advances and explore emerging connections across these areas, with an emphasis on the statistical foundations of latent structure and representation learning.</p>
   </section>
 
   <!-- Workshop speakers -->
@@ -114,11 +122,42 @@ custom_css: /assets/css/workshop2026.css
     </div>
   </section>
 
+  <!-- Junior researcher poster session -->
+  <section class="workshop-section workshop-details workshop-poster" aria-labelledby="poster-heading">
+    <h2 id="poster-heading">Junior Researcher Poster Session</h2>
+    <div class="workshop-poster__panel">
+      <p>A junior researcher poster session is tentatively planned for approximately <strong>4:30–6:00 p.m. on November 4</strong>. PhD students and postdoctoral researchers are invited to submit work broadly related to latent structure, representation learning, high-dimensional statistics, causal learning, statistical machine learning, and related areas. The session will provide junior researchers with an opportunity to present their work and interact with workshop participants.</p>
+
+      <dl class="workshop-poster__facts">
+        <div>
+          <dt>Priority submission deadline</dt>
+          <dd><time datetime="2026-09-15">September 15, 2026</time></dd>
+        </div>
+        <div>
+          <dt>Expected notification</dt>
+          <dd>Around <time datetime="2026-09-25">September 25, 2026</time></dd>
+        </div>
+        <div>
+          <dt>Submission</dt>
+          <dd>Poster title and a short abstract of 250 words or fewer</dd>
+        </div>
+      </dl>
+
+      <p class="workshop-poster__support">A limited number of travel-support awards of <strong>up to $500 per presenter</strong> will be available to help nonlocal PhD students and postdoctoral presenters offset workshop-related transportation and lodging expenses.</p>
+
+      <p class="workshop-poster__action">
+        <a class="workshop-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeXfJgDAlFJbKD7P7NwBwjT5J_xsUux9lsB2fol3JYMeqADZg/viewform" target="_blank" rel="noopener noreferrer">
+          Submit a Poster Abstract<span class="sr-only"> (opens in a new tab)</span>
+        </a>
+      </p>
+    </div>
+  </section>
+
   <!-- Workshop program -->
   <section class="workshop-section workshop-details" aria-labelledby="program-heading">
     <h2 id="program-heading">Program</h2>
-    <p class="workshop-details__lead"><strong>Program forthcoming.</strong></p>
-    <p>The detailed program and talk titles will be posted closer to the workshop.</p>
+    <p class="workshop-details__lead"><strong>Detailed program forthcoming.</strong></p>
+    <p>The workshop will take place November 4–5. The junior researcher poster session is tentatively scheduled for approximately <strong>4:30–6:00 p.m. on November 4</strong>, and the workshop is expected to conclude on the afternoon of <strong>November 5</strong>. The exact schedule is being finalized; talk titles and the detailed program will be posted as they become available.</p>
   </section>
 
   <!-- Workshop location -->
