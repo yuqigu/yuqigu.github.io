@@ -13,6 +13,10 @@
             orient="auto" markerUnits="userSpaceOnUse">
       <path d="M0,0 L9,5 L0,10 Z" fill="#23658b"/>
     </marker>
+    <marker id="arrow-latent-structure" markerWidth="9" markerHeight="9" refX="7.5" refY="4.5"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4.5 L0,9 Z" fill="#5b93b4"/>
+    </marker>
     <marker id="arrow-causal" markerWidth="10" markerHeight="10" refX="8.5" refY="5"
             orient="auto" markerUnits="userSpaceOnUse">
       <path d="M0,0 L9,5 L0,10 Z" fill="#174c70"/>
@@ -72,8 +76,11 @@
     .heading-gold { fill: var(--gold); }
     .minor {
       fill: var(--muted);
-      font-size: 18px;
+      font-size: 20px;
     }
+    .minor-blue { fill: var(--blue-strong); }
+    .minor-teal { fill: var(--teal); }
+    .minor-gold { fill: var(--gold); }
     .node-label {
       font-family: "Roboto Slab", Georgia, serif;
       font-size: 22px;
@@ -105,10 +112,10 @@
       marker-end: url(#arrow-generative);
     }
     .latent-structure-edge {
-      stroke: var(--blue);
-      stroke-width: 1.65;
-      opacity: 0.82;
-      marker-end: url(#arrow-generative);
+      stroke: #5b93b4;
+      stroke-width: 1.5;
+      opacity: 0.74;
+      marker-end: url(#arrow-latent-structure);
     }
     .causal-edge {
       stroke: var(--blue-strong);
@@ -158,6 +165,7 @@
 
   <g id="observed-data">
     <text class="heading" x="48" y="50">Observed data</text>
+    <text class="minor" x="186" y="79" text-anchor="middle">matrix data</text>
 
     <g id="observed-matrix" aria-label="Compact response matrix">
       <rect x="48" y="88" width="276" height="150" rx="2" fill="#ffffff"/>
@@ -180,6 +188,8 @@
         <text x="209" y="223">1</text><text x="255" y="223">0</text><text x="301" y="223">1</text>
       </g>
     </g>
+
+    <text class="minor" x="164" y="260" text-anchor="middle">tensor data</text>
 
     <g id="observed-tensor" aria-label="Structured multiway data tensor">
       <path d="M82 298L117 270H247L212 298Z" fill="#f6f9fb"/>
@@ -219,6 +229,7 @@
       </g>
       <path d="M241 557H358 M241 557V452" class="structural" opacity="0.75"/>
     </g>
+    <text class="minor" x="200" y="580" text-anchor="middle">text → embeddings</text>
   </g>
 
   <g id="latent-representations">
@@ -254,7 +265,6 @@
         <path class="latent-structure-edge" d="M635 140H730"/>
         <path class="latent-structure-edge" d="M780 140H875"/>
         <path class="latent-structure-edge" d="M550 275H625"/>
-        <path class="latent-structure-edge" d="M675 275H730"/>
         <path class="latent-structure-edge" d="M890 275H950"/>
       </g>
 
@@ -296,11 +306,18 @@
         <text class="node-label" x="955" y="430">x₆</text>
         <text class="node-label" x="1050" y="430">x₇</text>
       </g>
+
+      <g id="latent-layer-labels">
+        <text class="minor minor-blue" x="570" y="146" text-anchor="end">upper latent layer</text>
+        <text class="minor minor-blue" x="490" y="281" text-anchor="end">middle latent layer</text>
+        <text class="minor" x="450" y="436" text-anchor="end">observed variables</text>
+      </g>
     </g>
   </g>
 
   <g id="identifiability-structure">
-    <text class="heading heading-blue" x="1190" y="50">Identifiability &amp; structure</text>
+    <text class="heading heading-blue" x="1190" y="50">Identifiability &amp; causal structure</text>
+    <text class="minor minor-blue" x="1190" y="82">latent causal graph</text>
     <g id="causal-dag" aria-label="Sparse causal directed acyclic graph among latent variables">
       <g id="causal-edges">
         <path class="causal-edge" d="M1422 114L1377 150"/>
@@ -327,23 +344,19 @@
 
   <g id="learning-inference">
     <text class="heading heading-teal" x="1190" y="263">Learning &amp; inference</text>
-    <g id="simplex" aria-label="Abstract simplex geometry with interior observations">
+    <text class="minor minor-teal" x="1560" y="349">simplex / latent geometry</text>
+    <g id="simplex" aria-label="Abstract simplex geometry with naturally distributed interior observations">
       <path d="M1450 292L1345 390H1555Z" fill="var(--teal-pale)" opacity="0.78"/>
       <path d="M1450 292L1345 390H1555Z" fill="none" stroke="var(--teal)" stroke-width="2.1"
             stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
-      <path d="M1390 368C1408 333 1432 330 1451 351C1472 375 1503 367 1519 337"
-            fill="none" stroke="var(--teal-light)" stroke-width="2" stroke-dasharray="4 5"
-            stroke-linecap="round" vector-effect="non-scaling-stroke"/>
-      <ellipse cx="1418" cy="358" rx="32" ry="20" fill="none" stroke="var(--teal-light)"
-               stroke-width="1.7" vector-effect="non-scaling-stroke"/>
-      <ellipse cx="1484" cy="353" rx="28" ry="18" fill="none" stroke="var(--teal-light)"
-               stroke-width="1.7" vector-effect="non-scaling-stroke"/>
       <g fill="var(--teal)">
-        <circle cx="1401" cy="360" r="4"/><circle cx="1413" cy="347" r="4"/>
-        <circle cx="1422" cy="366" r="4"/><circle cx="1432" cy="353" r="4"/>
-        <circle cx="1464" cy="360" r="4"/><circle cx="1475" cy="345" r="4"/>
-        <circle cx="1487" cy="358" r="4"/><circle cx="1498" cy="349" r="4"/>
-        <circle cx="1450" cy="332" r="4"/><circle cx="1512" cy="371" r="4"/>
+        <circle cx="1448" cy="316" r="3.7"/><circle cx="1427" cy="332" r="4"/>
+        <circle cx="1462" cy="337" r="3.5"/><circle cx="1484" cy="329" r="4.1"/>
+        <circle cx="1407" cy="352" r="3.8"/><circle cx="1438" cy="355" r="4.2"/>
+        <circle cx="1478" cy="354" r="3.7"/><circle cx="1506" cy="350" r="4"/>
+        <circle cx="1388" cy="374" r="3.6"/><circle cx="1423" cy="374" r="4.1"/>
+        <circle cx="1457" cy="370" r="3.8"/><circle cx="1491" cy="376" r="4.2"/>
+        <circle cx="1527" cy="372" r="3.7"/>
       </g>
       <g fill="var(--teal)">
         <circle cx="1450" cy="292" r="6"/><circle cx="1345" cy="390" r="6"/>
@@ -396,6 +409,11 @@
         <rect x="1637" y="548" width="119" height="8" rx="4" fill="#f1f2f3"/>
         <rect x="1637" y="548" width="96" height="8" rx="4" fill="var(--gold)" opacity="0.82"/>
       </g>
+      <text class="minor minor-gold" x="1285" y="586" text-anchor="middle">response patterns</text>
+      <text class="minor minor-gold" x="1495" y="576" text-anchor="middle">
+        <tspan x="1495">reasoning / semantic</tspan>
+        <tspan x="1495" dy="20">information</tspan>
+      </text>
     </g>
   </g>
 </svg>
