@@ -15,7 +15,7 @@ custom_css: /assets/css/workshop2026.css?v=20260818-speaker-order-note
   <!-- Workshop hero -->
   <section class="workshop-hero" aria-labelledby="workshop-title">
     <div class="workshop-hero__figure" aria-hidden="true">
-      <img src="{{ '/assets/img/workshop2026/latent-manifold-frame.svg' | relative_url }}" alt="">
+      <img src="{{ '/assets/img/workshop2026/latent-manifold-frame.svg' | relative_url }}?v=20260818-hollow-nodes" alt="">
     </div>
     <div class="workshop-hero__content">
       <div class="workshop-hero__accent" aria-hidden="true"></div>
