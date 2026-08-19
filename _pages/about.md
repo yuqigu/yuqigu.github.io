@@ -30,6 +30,7 @@ My research develops statistical theory and methods for uncovering **latent stru
 
 [Here is my CV]({{ '/assets/pdf/YuqiGu_CV.pdf' | relative_url }}).
 
-{% include representative_papers.html %}
+**Workshop 2026:** I am organizing the Workshop on **Statistical Foundations of Latent Structure and Representation Learning** at Columbia University on November 4–5, 2026. [View workshop details.]({{ '/workshop2026/' | relative_url }})
 
+{% include representative_papers.html %}
 
