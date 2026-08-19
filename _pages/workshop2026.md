@@ -132,7 +132,7 @@ custom_css: /assets/css/workshop2026.css?v=20260818-speaker-order-note
       <dl class="workshop-poster__facts">
         <div>
           <dt>Priority submission deadline</dt>
-          <dd><time datetime="2026-09-15">September 15, 2026</time></dd>
+          <dd><time datetime="2026-09-20">September 20, 2026</time></dd>
         </div>
         <div>
           <dt>Expected notification</dt>
