@@ -1,24 +1,17 @@
 <div class="news">
-  <h2>Recent News</h2>
-  {% if site.news  %}
-    <div class="table-responsive">
-      <table class="table table-sm table-borderless">
-      {% assign news = site.news | reverse %}
-      {% for item in news limit: site.news_limit %}
-        <tr>
-          <th scope="row">{{ item.date | date: "%m/%Y" }}</th>
-          <td>
-            {% if item.inline %}
-              {{ item.content | remove: '<p>' | remove: '</p>' | emojify }}
-            {% else %}
-              <a class="news-title" href="{{ item.url | relative_url }}">{{ item.title }}</a>
-            {% endif %}
-          </td>
-        </tr>
-      {% endfor %}
-      </table>
-    </div>
-  {% else %}
-    <p>No news so far...</p>
-  {% endif %}
+  <h2>Selected Highlights</h2>
+  <ul>
+    <li>
+      <strong>Student research and recognition.</strong>
+      I have been fortunate to work with students whose research has received seven paper and travel awards since 2023. These include three ASA SLDS Student Paper Awards and recognition from the Korean International Statistical Society, the Institute of Mathematical Statistics, and the Psychometric Society.
+    </li>
+    <li>
+      <strong>Mentoring and next steps.</strong>
+      It has been rewarding to see recent advisees move on to exciting positions. Seunghyun Lee joined Harvard Statistics as a postdoctoral researcher, Zhongyuan Lyu joined the University of Sydney Business School as a Lecturer, equivalent to Assistant Professor, and Ling Chen became a quantitative researcher at Tudor Investment Corporation.
+    </li>
+    <li>
+      <strong>Workshops and invited talks.</strong>
+      I enjoy helping bring researchers together across statistics and machine learning. In 2026, I co-organized the <a href="https://sites.google.com/view/snab-workshop-2026" target="_blank" rel="noopener noreferrer">SNAB workshop in Hanoi</a> and am organizing a <a href="{{ '/workshop2026/' | relative_url }}">Columbia workshop on statistical foundations of latent structure and representation learning</a>. I was also one of six invited speakers at <a href="https://www.psychometricsociety.org/invited-speaker/yuqi-gu-columbia-university" target="_blank" rel="noopener noreferrer">IMPS 2026</a>, where I gave a 45-minute lecture, and an invited speaker at an <a href="https://grigoris.ece.wisc.edu/workshops/colorai-icml-2026/" target="_blank" rel="noopener noreferrer">ICML 2026 workshop on low-rank representations in AI</a>.
+    </li>
+  </ul>
 </div>

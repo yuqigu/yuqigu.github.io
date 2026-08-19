@@ -1,0 +1,419 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1800"
+     height="600"
+     viewBox="0 0 1800 600"
+     preserveAspectRatio="xMidYMid meet"
+     role="img"
+     aria-labelledby="research-overview-title research-overview-desc">
+  <title id="research-overview-title">Research overview: from observed data to latent structure and statistical inference</title>
+  <desc id="research-overview-desc">A wide scientific schematic. Matrix, tensor, document, and embedding data flow into a sparse, top-down hierarchy of discrete latent variables. The hierarchy connects conceptually to an identifiable latent causal graph, simplex-based learning and inference, and interpretable latent measurement.</desc>
+
+  <defs>
+    <marker id="arrow-generative" markerWidth="10" markerHeight="10" refX="8.5" refY="5"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,5 L0,10 Z" fill="#23658b"/>
+    </marker>
+    <marker id="arrow-latent-structure" markerWidth="9" markerHeight="9" refX="7.5" refY="4.5"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4.5 L0,9 Z" fill="#5b93b4"/>
+    </marker>
+    <marker id="arrow-causal" markerWidth="10" markerHeight="10" refX="8.5" refY="5"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L9,5 L0,10 Z" fill="#174c70"/>
+    </marker>
+    <marker id="arrow-flow-neutral" markerWidth="14" markerHeight="14" refX="12" refY="7"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L13,7 L0,14 Z" fill="#8b96a3"/>
+    </marker>
+    <marker id="arrow-flow-blue" markerWidth="14" markerHeight="14" refX="12" refY="7"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L13,7 L0,14 Z" fill="#5b93b4"/>
+    </marker>
+    <marker id="arrow-flow-teal" markerWidth="14" markerHeight="14" refX="12" refY="7"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L13,7 L0,14 Z" fill="#5f9f9d"/>
+    </marker>
+    <marker id="arrow-flow-gold" markerWidth="14" markerHeight="14" refX="12" refY="7"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L13,7 L0,14 Z" fill="#c0994c"/>
+    </marker>
+    <marker id="arrow-small" markerWidth="9" markerHeight="9" refX="7.5" refY="4.5"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L8,4.5 L0,9 Z" fill="#8b929b"/>
+    </marker>
+  </defs>
+
+  <style>
+    :root {
+      --text: #111111;
+      --muted: #69727d;
+      --line: #bcc4cd;
+      --line-light: #dce1e6;
+      --surface: #fafbfc;
+      --blue: #23658b;
+      --blue-strong: #174c70;
+      --blue-light: #b9d9eb;
+      --blue-pale: #edf5f9;
+      --teal: #2d7d78;
+      --teal-light: #b8d9d5;
+      --teal-pale: #edf7f5;
+      --gold: #a87516;
+      --gold-light: #e4ca91;
+      --gold-pale: #fbf5e8;
+    }
+    text {
+      fill: var(--text);
+      font-family: Roboto, -apple-system, BlinkMacSystemFont, "Segoe UI", Arial, sans-serif;
+      text-rendering: geometricPrecision;
+    }
+    .heading {
+      font-size: 31px;
+      font-weight: 500;
+      letter-spacing: -0.25px;
+    }
+    .heading-blue { fill: var(--blue-strong); }
+    .heading-teal { fill: var(--teal); }
+    .heading-gold { fill: var(--gold); }
+    .minor {
+      fill: var(--muted);
+      font-size: 20px;
+    }
+    .minor-blue { fill: var(--blue-strong); }
+    .minor-teal { fill: var(--teal); }
+    .minor-gold { fill: var(--gold); }
+    .node-label {
+      font-family: "Roboto Slab", Georgia, serif;
+      font-size: 22px;
+      font-style: italic;
+      text-anchor: middle;
+      dominant-baseline: central;
+    }
+    .matrix-label {
+      fill: #4c5560;
+      font-size: 17px;
+      text-anchor: middle;
+      dominant-baseline: central;
+    }
+    .structural,
+    .generative-edge,
+    .latent-structure-edge,
+    .causal-edge,
+    .concept-flow,
+    .internal-flow {
+      fill: none;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      vector-effect: non-scaling-stroke;
+    }
+    .structural { stroke: var(--line); stroke-width: 1.35; }
+    .generative-edge {
+      stroke: var(--blue);
+      stroke-width: 1.9;
+      marker-end: url(#arrow-generative);
+    }
+    .latent-structure-edge {
+      stroke: #5b93b4;
+      stroke-width: 1.5;
+      opacity: 0.74;
+      marker-end: url(#arrow-latent-structure);
+    }
+    .causal-edge {
+      stroke: var(--blue-strong);
+      stroke-width: 2.25;
+      marker-end: url(#arrow-causal);
+    }
+    .concept-flow {
+      stroke-width: 4.4;
+      opacity: 0.58;
+    }
+    .internal-flow {
+      stroke: #8b929b;
+      stroke-width: 2.1;
+      marker-end: url(#arrow-small);
+    }
+    .latent-node {
+      fill: var(--blue-pale);
+      stroke: var(--blue);
+      stroke-width: 2;
+      vector-effect: non-scaling-stroke;
+    }
+    .observed-node {
+      fill: var(--surface);
+      stroke: #747d87;
+      stroke-width: 1.7;
+      vector-effect: non-scaling-stroke;
+    }
+    .causal-node {
+      fill: #ffffff;
+      stroke: var(--blue-strong);
+      stroke-width: 2.1;
+      vector-effect: non-scaling-stroke;
+    }
+  </style>
+
+  <!-- Conceptual flow arrows are broader, lighter, and distinct from graph edges. -->
+  <g id="conceptual-flows" aria-hidden="true">
+    <path class="concept-flow" d="M350 318 C381 318 404 318 436 318"
+          stroke="#8b96a3" marker-end="url(#arrow-flow-neutral)"/>
+    <path class="concept-flow" d="M1045 205 C1100 199 1120 143 1174 131"
+          stroke="#5b93b4" marker-end="url(#arrow-flow-blue)"/>
+    <path class="concept-flow" d="M1053 298 C1102 298 1128 320 1174 320"
+          stroke="#5f9f9d" marker-end="url(#arrow-flow-teal)"/>
+    <path class="concept-flow" d="M1056 391 C1110 405 1122 467 1170 481"
+          stroke="#c0994c" marker-end="url(#arrow-flow-gold)"/>
+  </g>
+
+  <g id="observed-data">
+    <text class="heading" x="48" y="50">Observed data</text>
+    <text class="minor" x="186" y="79" text-anchor="middle">matrix data</text>
+
+    <g id="observed-matrix" aria-label="Compact response matrix">
+      <rect x="48" y="88" width="276" height="150" rx="2" fill="#ffffff"/>
+      <rect x="94" y="88" width="46" height="30" fill="var(--blue-pale)"/>
+      <rect x="186" y="118" width="46" height="30" fill="var(--blue-pale)"/>
+      <rect x="278" y="208" width="46" height="30" fill="var(--blue-pale)"/>
+      <path class="structural" d="M48 88H324V238H48Z
+        M94 88V238 M140 88V238 M186 88V238 M232 88V238 M278 88V238
+        M48 118H324 M48 148H324 M48 178H324 M48 208H324"/>
+      <g class="matrix-label">
+        <text x="71" y="103">1</text><text x="117" y="103">0</text><text x="163" y="103">1</text>
+        <text x="209" y="103">0</text><text x="255" y="103">1</text><text x="301" y="103">0</text>
+        <text x="71" y="133">0</text><text x="117" y="133">1</text><text x="163" y="133">0</text>
+        <text x="209" y="133">1</text><text x="255" y="133">1</text><text x="301" y="133">0</text>
+        <text x="71" y="163">1</text><text x="117" y="163">1</text><text x="163" y="163">0</text>
+        <text x="209" y="163">0</text><text x="255" y="163">0</text><text x="301" y="163">1</text>
+        <text x="71" y="193">0</text><text x="117" y="193">1</text><text x="163" y="193">1</text>
+        <text x="209" y="193">0</text><text x="255" y="193">1</text><text x="301" y="193">1</text>
+        <text x="71" y="223">1</text><text x="117" y="223">0</text><text x="163" y="223">0</text>
+        <text x="209" y="223">1</text><text x="255" y="223">0</text><text x="301" y="223">1</text>
+      </g>
+    </g>
+
+    <text class="minor" x="164" y="260" text-anchor="middle">tensor data</text>
+
+    <g id="observed-tensor" aria-label="Structured multiway data tensor">
+      <path d="M82 298L117 270H247L212 298Z" fill="#f6f9fb"/>
+      <path d="M212 298L247 270V370L212 398Z" fill="#f1f5f7"/>
+      <rect x="82" y="298" width="130" height="100" fill="#ffffff"/>
+      <path d="M125.3 298L160.3 270L203.7 270L168.7 298Z" fill="var(--blue-pale)"/>
+      <rect x="125.3" y="331.3" width="43.4" height="33.4" fill="var(--blue-light)" opacity="0.65"/>
+      <path class="structural" d="M82 298L117 270H247V370L212 398H82Z M82 298H212L247 270
+        M212 298V398 M125.3 298V398 M168.7 298V398
+        M82 331.3H212 M82 364.7H212
+        M117 270L82 298 M160.3 270L125.3 298 M203.7 270L168.7 298
+        M247 303.3L212 331.3 M247 336.7L212 364.7"/>
+    </g>
+
+    <g id="embedding" aria-label="Documents mapped to an embedding cloud">
+      <g fill="#ffffff" stroke="var(--line)" stroke-width="1.4">
+        <path d="M43 455H70L80 465V504H43Z"/>
+        <path d="M93 455H120L130 465V504H93Z"/>
+        <path d="M143 455H170L180 465V504H143Z"/>
+      </g>
+      <g class="structural">
+        <path d="M70 455V465H80 M50 474H70 M50 482H73 M50 490H66"/>
+        <path d="M120 455V465H130 M100 474H120 M100 482H123 M100 490H116"/>
+        <path d="M170 455V465H180 M150 474H170 M150 482H173 M150 490H166"/>
+      </g>
+      <path class="internal-flow" d="M193 481H229"/>
+      <g fill="var(--blue)" opacity="0.92">
+        <circle cx="258" cy="478" r="4"/><circle cx="275" cy="463" r="3.7"/>
+        <circle cx="291" cy="482" r="4.2"/><circle cx="308" cy="469" r="3.5"/>
+        <circle cx="326" cy="489" r="4"/><circle cx="247" cy="503" r="3.5"/>
+        <circle cx="267" cy="518" r="4.1"/><circle cx="285" cy="501" r="3.2"/>
+        <circle cx="302" cy="523" r="4"/><circle cx="321" cy="510" r="3.6"/>
+        <circle cx="341" cy="525" r="4"/><circle cx="255" cy="540" r="3.8"/>
+        <circle cx="280" cy="545" r="3.3"/><circle cx="299" cy="550" r="4.1"/>
+        <circle cx="318" cy="542" r="3.4"/><circle cx="339" cy="552" r="4.2"/>
+        <circle cx="350" cy="505" r="3.5"/>
+      </g>
+      <path d="M241 557H358 M241 557V452" class="structural" opacity="0.75"/>
+    </g>
+    <text class="minor" x="200" y="580" text-anchor="middle">text → embeddings</text>
+  </g>
+
+  <g id="latent-representations">
+    <text class="heading" x="486" y="50">Latent representations</text>
+
+    <g id="latent-hierarchy" aria-label="Sparse hierarchy of discrete latent variables with directed within-layer structure">
+      <!-- Deepest latent layer to shallower latent layer: seven directed edges. -->
+      <g id="deep-to-shallow-edges">
+        <path class="generative-edge" d="M596 160L540 253"/>
+        <path class="generative-edge" d="M617 162L639 249"/>
+        <path class="generative-edge" d="M739 158L662 253"/>
+        <path class="generative-edge" d="M755 164V248"/>
+        <path class="generative-edge" d="M772 158L848 253"/>
+        <path class="generative-edge" d="M894 162L871 249"/>
+        <path class="generative-edge" d="M913 159L962 253"/>
+      </g>
+
+      <!-- Shallower latent layer to observed variables: nine directed edges. -->
+      <g id="shallow-to-observed-edges">
+        <path class="generative-edge" d="M519 298L486 407"/>
+        <path class="generative-edge" d="M532 298L563 407"/>
+        <path class="generative-edge" d="M648 298L662 406"/>
+        <path class="generative-edge" d="M746 298L678 409"/>
+        <path class="generative-edge" d="M757 299L764 405"/>
+        <path class="generative-edge" d="M864 299L860 405"/>
+        <path class="generative-edge" d="M878 297L944 409"/>
+        <path class="generative-edge" d="M972 299L957 406"/>
+        <path class="generative-edge" d="M987 297L1039 409"/>
+      </g>
+
+      <!-- Sparse left-to-right latent relations preserve acyclicity within each layer. -->
+      <g id="within-layer-latent-edges">
+        <path class="latent-structure-edge" d="M635 140H730"/>
+        <path class="latent-structure-edge" d="M780 140H875"/>
+        <path class="latent-structure-edge" d="M550 275H625"/>
+        <path class="latent-structure-edge" d="M890 275H950"/>
+      </g>
+
+      <g id="deep-latent-nodes">
+        <circle class="latent-node" cx="610" cy="140" r="24"/>
+        <circle class="latent-node" cx="755" cy="140" r="24"/>
+        <circle class="latent-node" cx="900" cy="140" r="24"/>
+        <text class="node-label" x="610" y="140">z₁</text>
+        <text class="node-label" x="755" y="140">z₂</text>
+        <text class="node-label" x="900" y="140">z₃</text>
+      </g>
+
+      <g id="shallow-latent-nodes">
+        <circle class="latent-node" cx="525" cy="275" r="24"/>
+        <circle class="latent-node" cx="650" cy="275" r="24"/>
+        <circle class="latent-node" cx="755" cy="275" r="24"/>
+        <circle class="latent-node" cx="865" cy="275" r="24"/>
+        <circle class="latent-node" cx="975" cy="275" r="24"/>
+        <text class="node-label" x="525" y="275">h₁</text>
+        <text class="node-label" x="650" y="275">h₂</text>
+        <text class="node-label" x="755" y="275">h₃</text>
+        <text class="node-label" x="865" y="275">h₄</text>
+        <text class="node-label" x="975" y="275">h₅</text>
+      </g>
+
+      <g id="observed-variable-nodes">
+        <circle class="observed-node" cx="480" cy="430" r="20"/>
+        <circle class="observed-node" cx="575" cy="430" r="20"/>
+        <circle class="observed-node" cx="670" cy="430" r="20"/>
+        <circle class="observed-node" cx="765" cy="430" r="20"/>
+        <circle class="observed-node" cx="860" cy="430" r="20"/>
+        <circle class="observed-node" cx="955" cy="430" r="20"/>
+        <circle class="observed-node" cx="1050" cy="430" r="20"/>
+        <text class="node-label" x="480" y="430">x₁</text>
+        <text class="node-label" x="575" y="430">x₂</text>
+        <text class="node-label" x="670" y="430">x₃</text>
+        <text class="node-label" x="765" y="430">x₄</text>
+        <text class="node-label" x="860" y="430">x₅</text>
+        <text class="node-label" x="955" y="430">x₆</text>
+        <text class="node-label" x="1050" y="430">x₇</text>
+      </g>
+
+      <g id="latent-layer-labels">
+        <text class="minor minor-blue" x="570" y="146" text-anchor="end">upper latent layer</text>
+        <text class="minor minor-blue" x="490" y="281" text-anchor="end">middle latent layer</text>
+        <text class="minor" x="450" y="436" text-anchor="end">observed variables</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="identifiability-structure">
+    <text class="heading heading-blue" x="1190" y="50">Identifiability &amp; causal structure</text>
+    <text class="minor minor-blue" x="1190" y="82">latent causal graph</text>
+    <g id="causal-dag" aria-label="Sparse causal directed acyclic graph among latent variables">
+      <g id="causal-edges">
+        <path class="causal-edge" d="M1422 114L1377 150"/>
+        <path class="causal-edge" d="M1458 114L1511 144"/>
+        <path class="causal-edge" d="M1440 124L1436 173"/>
+        <path class="causal-edge" d="M1378 175L1411 189"/>
+        <path class="causal-edge" d="M1553 162L1636 183"/>
+        <path class="causal-edge" d="M1460 197L1635 191"/>
+      </g>
+      <g id="causal-nodes">
+        <circle class="causal-node" cx="1440" cy="100" r="24"/>
+        <circle class="causal-node" cx="1358" cy="165" r="23"/>
+        <circle class="causal-node" cx="1532" cy="156" r="23"/>
+        <circle class="causal-node" cx="1435" cy="198" r="23"/>
+        <circle class="causal-node" cx="1659" cy="190" r="23"/>
+        <text class="node-label" x="1440" y="100">Z₁</text>
+        <text class="node-label" x="1358" y="165">Z₂</text>
+        <text class="node-label" x="1532" y="156">Z₃</text>
+        <text class="node-label" x="1435" y="198">Z₄</text>
+        <text class="node-label" x="1659" y="190">Z₅</text>
+      </g>
+    </g>
+  </g>
+
+  <g id="learning-inference">
+    <text class="heading heading-teal" x="1190" y="263">Learning &amp; inference</text>
+    <text class="minor minor-teal" x="1560" y="349">simplex / latent geometry</text>
+    <g id="simplex" aria-label="Abstract simplex geometry with naturally distributed interior observations">
+      <path d="M1450 292L1345 390H1555Z" fill="var(--teal-pale)" opacity="0.78"/>
+      <path d="M1450 292L1345 390H1555Z" fill="none" stroke="var(--teal)" stroke-width="2.1"
+            stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+      <g fill="var(--teal)">
+        <circle cx="1448" cy="316" r="3.7"/><circle cx="1427" cy="332" r="4"/>
+        <circle cx="1462" cy="337" r="3.5"/><circle cx="1484" cy="329" r="4.1"/>
+        <circle cx="1407" cy="352" r="3.8"/><circle cx="1438" cy="355" r="4.2"/>
+        <circle cx="1478" cy="354" r="3.7"/><circle cx="1506" cy="350" r="4"/>
+        <circle cx="1388" cy="374" r="3.6"/><circle cx="1423" cy="374" r="4.1"/>
+        <circle cx="1457" cy="370" r="3.8"/><circle cx="1491" cy="376" r="4.2"/>
+        <circle cx="1527" cy="372" r="3.7"/>
+      </g>
+      <g fill="var(--teal)">
+        <circle cx="1450" cy="292" r="6"/><circle cx="1345" cy="390" r="6"/>
+        <circle cx="1555" cy="390" r="6"/>
+      </g>
+    </g>
+  </g>
+
+  <g id="measurement-interpretation">
+    <text class="heading heading-gold" x="1190" y="439">Measurement &amp; interpretation</text>
+    <g id="measurement" aria-label="Response and representation information mapped to a latent profile">
+      <g id="measurement-response-matrix">
+        <rect x="1190" y="470" width="190" height="88" fill="#ffffff"/>
+        <rect x="1228" y="492" width="38" height="22" fill="var(--gold-pale)"/>
+        <rect x="1342" y="536" width="38" height="22" fill="var(--gold-pale)"/>
+        <path class="structural" d="M1190 470H1380V558H1190Z
+          M1228 470V558 M1266 470V558 M1304 470V558 M1342 470V558
+          M1190 492H1380 M1190 514H1380 M1190 536H1380"/>
+        <g class="matrix-label">
+          <text x="1209" y="481">1</text><text x="1247" y="481">0</text><text x="1285" y="481">1</text><text x="1323" y="481">0</text><text x="1361" y="481">1</text>
+          <text x="1209" y="503">0</text><text x="1247" y="503">1</text><text x="1285" y="503">1</text><text x="1323" y="503">0</text><text x="1361" y="503">0</text>
+          <text x="1209" y="525">1</text><text x="1247" y="525">1</text><text x="1285" y="525">0</text><text x="1323" y="525">1</text><text x="1361" y="525">0</text>
+          <text x="1209" y="547">0</text><text x="1247" y="547">0</text><text x="1285" y="547">1</text><text x="1323" y="547">1</text><text x="1361" y="547">1</text>
+        </g>
+      </g>
+
+      <path class="internal-flow" d="M1394 514H1424"/>
+
+      <g id="representation-bars" aria-label="Abstract representation information">
+        <rect x="1436" y="479" width="118" height="9" rx="4.5" fill="#edf0f2"/>
+        <rect x="1436" y="479" width="73" height="9" rx="4.5" fill="var(--gold-light)"/>
+        <rect x="1436" y="501" width="118" height="9" rx="4.5" fill="#edf0f2"/>
+        <rect x="1436" y="501" width="101" height="9" rx="4.5" fill="var(--gold-light)"/>
+        <rect x="1436" y="523" width="118" height="9" rx="4.5" fill="#edf0f2"/>
+        <rect x="1436" y="523" width="54" height="9" rx="4.5" fill="var(--gold-light)"/>
+        <rect x="1436" y="545" width="118" height="9" rx="4.5" fill="#edf0f2"/>
+        <rect x="1436" y="545" width="88" height="9" rx="4.5" fill="var(--gold-light)"/>
+      </g>
+
+      <path class="internal-flow" d="M1568 514H1607"/>
+
+      <g id="latent-profile">
+        <rect x="1620" y="463" width="156" height="111" rx="8" fill="#ffffff"
+              stroke="var(--gold-light)" stroke-width="1.8" vector-effect="non-scaling-stroke"/>
+        <text x="1637" y="488" font-size="18" font-weight="500" fill="var(--gold)">Latent profile</text>
+        <rect x="1637" y="504" width="119" height="8" rx="4" fill="#f1f2f3"/>
+        <rect x="1637" y="504" width="81" height="8" rx="4" fill="var(--gold)" opacity="0.82"/>
+        <rect x="1637" y="526" width="119" height="8" rx="4" fill="#f1f2f3"/>
+        <rect x="1637" y="526" width="52" height="8" rx="4" fill="var(--gold)" opacity="0.82"/>
+        <rect x="1637" y="548" width="119" height="8" rx="4" fill="#f1f2f3"/>
+        <rect x="1637" y="548" width="96" height="8" rx="4" fill="var(--gold)" opacity="0.82"/>
+      </g>
+      <text class="minor minor-gold" x="1285" y="586" text-anchor="middle">response patterns</text>
+      <text class="minor minor-gold" x="1495" y="576" text-anchor="middle">
+        <tspan x="1495">reasoning / semantic</tspan>
+        <tspan x="1495" dy="20">information</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

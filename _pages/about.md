@@ -9,7 +9,7 @@ profile:
   image: prof_pic.jpg
   address: 
 
-news: true  # includes a list of news items
+news: false # hide homepage news and selected highlights
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
@@ -31,8 +31,5 @@ My research develops statistical theory and methods for uncovering **latent stru
 [Here is my CV]({{ '/assets/pdf/YuqiGu_CV.pdf' | relative_url }}).
 
 {% include representative_papers.html %}
-
-
-
 
 

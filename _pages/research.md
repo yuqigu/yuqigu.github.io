@@ -19,7 +19,11 @@ In the selected work below, <u>underlined</u> names are students or postdoctoral
 + **Learning and inference.** How can latent structure be recovered efficiently in high dimensions, with finite-sample guarantees and principled uncertainty quantification?
 + **Measurement and interpretation.** How can latent representations support interpretable measurement of heterogeneous populations, scientific constructs, and complex AI systems?
 
-These questions recur across three connected research directions.
+These questions recur across three connected research directions: (a) Identifiable deep and causal representations; (b) High-dimensional statistical inference with latent structure, and (c) Statistical measurement for humans and AI systems.
+
+<figure class="my-4">
+  <img class="img-fluid" src="{{ '/assets/img/research-overview.svg' | relative_url }}" alt="Research overview showing observed data, structured latent representations, identifiable causal structure, statistical inference, and interpretable measurement.">
+</figure>
 
 ## 1. Identifiable deep and causal representations
 
