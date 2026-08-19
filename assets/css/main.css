@@ -382,6 +382,13 @@ footer.sticky-bottom {
 }
 .publications .representative-publications-heading {
   font-size: 1.35rem;
+  margin-bottom: 0.35rem;
+}
+.publications .representative-publications-note {
+  color: var(--global-text-color-light);
+  font-size: 0.9rem;
+  line-height: 1.45;
+  margin-bottom: 1rem;
 }
 .publications h2.year {
   color: #e8e8e8;
