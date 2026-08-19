@@ -6,7 +6,7 @@ nav_title: Workshop 2026
 browser_title: Statistical Foundations of Latent Structure and Representation Learning | Columbia 2026
 description: Columbia University workshop on Statistical Foundations of Latent Structure and Representation Learning, November 4–5, 2026, New York City.
 nav: true
-page_order: 4
+page_order: 5
 standalone_nav: true
 custom_css: /assets/css/workshop2026.css?v=20260818-speaker-order-note
 ---
