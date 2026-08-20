@@ -112,6 +112,7 @@ kramdown:
 # Includes & excludes
 include: ['_pages']
 exclude:
+  - AGENTS.md
   - bin
   - Gemfile
   - Gemfile.lock
