@@ -6,7 +6,7 @@
      role="img"
      aria-labelledby="research-overview-title research-overview-desc">
   <title id="research-overview-title">Research overview: from observed data to latent structure and statistical inference</title>
-  <desc id="research-overview-desc">A wide scientific schematic. Matrix, tensor, document, and embedding data flow into a sparse, top-down hierarchy of discrete latent variables. The hierarchy connects conceptually to an identifiable latent causal graph, simplex-based learning and inference, and interpretable latent measurement.</desc>
+  <desc id="research-overview-desc">A wide scientific schematic. Matrix, tensor, document, and embedding data flow into a sparse, top-down hierarchy of discrete latent variables. The hierarchy connects conceptually to an identifiable latent causal graph, learning and inference through paired latent geometries, and interpretable latent measurement.</desc>
 
   <defs>
     <marker id="arrow-generative" markerWidth="10" markerHeight="10" refX="8.5" refY="5"
@@ -344,25 +344,62 @@
 
   <g id="learning-inference">
     <text class="heading heading-teal" x="1190" y="263">Learning &amp; inference</text>
-    <text class="minor minor-teal" x="1560" y="349">simplex / latent geometry</text>
-    <g id="simplex" aria-label="Abstract simplex geometry with naturally distributed interior observations">
-      <path d="M1450 292L1345 390H1555Z" fill="var(--teal-pale)" opacity="0.78"/>
-      <path d="M1450 292L1345 390H1555Z" fill="none" stroke="var(--teal)" stroke-width="2.1"
-            stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
-      <g fill="var(--teal)">
-        <circle cx="1448" cy="316" r="3.7"/><circle cx="1427" cy="332" r="4"/>
-        <circle cx="1462" cy="337" r="3.5"/><circle cx="1484" cy="329" r="4.1"/>
-        <circle cx="1407" cy="352" r="3.8"/><circle cx="1438" cy="355" r="4.2"/>
-        <circle cx="1478" cy="354" r="3.7"/><circle cx="1506" cy="350" r="4"/>
-        <circle cx="1388" cy="374" r="3.6"/><circle cx="1423" cy="374" r="4.1"/>
-        <circle cx="1457" cy="370" r="3.8"/><circle cx="1491" cy="376" r="4.2"/>
-        <circle cx="1527" cy="372" r="3.7"/>
+    <g id="latent-geometries" aria-label="Paired triangular and crystal latent geometries">
+      <g id="triangular-geometry" aria-label="Triangular latent geometry with naturally distributed interior observations">
+        <path d="M1364 296L1298 389H1432Z" fill="var(--teal-pale)" opacity="0.78"/>
+        <path d="M1364 296L1298 389H1432Z" fill="none" stroke="var(--teal)" stroke-width="2.1"
+              stroke-linejoin="round" vector-effect="non-scaling-stroke"/>
+        <g fill="var(--teal)">
+          <circle cx="1362" cy="319" r="3.4"/><circle cx="1346" cy="335" r="3.7"/>
+          <circle cx="1376" cy="339" r="3.3"/><circle cx="1392" cy="332" r="3.6"/>
+          <circle cx="1327" cy="356" r="3.5"/><circle cx="1355" cy="357" r="3.8"/>
+          <circle cx="1384" cy="357" r="3.4"/><circle cx="1405" cy="360" r="3.7"/>
+          <circle cx="1316" cy="378" r="3.3"/><circle cx="1345" cy="377" r="3.7"/>
+          <circle cx="1374" cy="375" r="3.4"/><circle cx="1408" cy="379" r="3.8"/>
+        </g>
+        <g fill="var(--teal)">
+          <circle cx="1364" cy="296" r="5.5"/><circle cx="1298" cy="389" r="5.5"/>
+          <circle cx="1432" cy="389" r="5.5"/>
+        </g>
       </g>
-      <g fill="var(--teal)">
-        <circle cx="1450" cy="292" r="6"/><circle cx="1345" cy="390" r="6"/>
-        <circle cx="1555" cy="390" r="6"/>
+
+      <g id="crystal-geometry" aria-label="Perspective projection of an eight-vertex crystal latent geometry">
+        <g stroke="none">
+          <path d="M1467 347L1529 335L1547 296L1488 311Z"
+                fill="var(--teal-pale)" opacity="0.82"/>
+          <path d="M1501 390L1563 387L1580 344L1519 354Z"
+                fill="var(--teal-light)" opacity="0.32"/>
+          <path d="M1467 347L1501 390L1519 354L1488 311Z"
+                fill="var(--teal-light)" opacity="0.48"/>
+          <path d="M1529 335L1563 387L1580 344L1547 296Z"
+                fill="var(--teal-pale)" opacity="0.64"/>
+          <path d="M1467 347L1501 390L1563 387L1529 335Z"
+                fill="var(--teal-pale)" opacity="0.42"/>
+          <path d="M1488 311L1519 354L1580 344L1547 296Z"
+                fill="var(--teal-light)" opacity="0.28"/>
+        </g>
+        <g fill="none" stroke="var(--teal)" stroke-width="1.65"
+           stroke-linejoin="round" stroke-linecap="round"
+           vector-effect="non-scaling-stroke">
+          <path d="M1467 347L1501 390"/><path d="M1467 347L1529 335"/>
+          <path d="M1467 347L1488 311"/><path d="M1501 390L1563 387"/>
+          <path d="M1501 390L1519 354"/><path d="M1529 335L1563 387"/>
+          <path d="M1529 335L1547 296"/><path d="M1563 387L1580 344"/>
+          <path d="M1488 311L1519 354"/><path d="M1488 311L1547 296"/>
+          <path d="M1519 354L1580 344"/><path d="M1547 296L1580 344"/>
+        </g>
+        <path d="M1467 347L1488 311L1547 296L1580 344L1563 387L1501 390Z"
+              fill="none" stroke="var(--teal)" stroke-width="2.1" stroke-linejoin="round"
+              vector-effect="non-scaling-stroke"/>
+        <g fill="var(--teal)">
+          <circle cx="1467" cy="347" r="5"/><circle cx="1501" cy="390" r="5"/>
+          <circle cx="1529" cy="335" r="5"/><circle cx="1563" cy="387" r="5"/>
+          <circle cx="1488" cy="311" r="5"/><circle cx="1519" cy="354" r="5"/>
+          <circle cx="1547" cy="296" r="5"/><circle cx="1580" cy="344" r="5"/>
+        </g>
       </g>
     </g>
+    <text class="minor minor-teal" x="1624" y="349">latent geometry</text>
   </g>
 
   <g id="measurement-interpretation">
