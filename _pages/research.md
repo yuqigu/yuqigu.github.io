@@ -22,7 +22,7 @@ In the selected work below, <u>underlined</u> names are students or postdoctoral
 These questions recur across three connected research directions: (a) Identifiable deep and causal representations; (b) High-dimensional statistical inference with latent structure, and (c) Statistical measurement for humans and AI systems.
 
 <figure class="my-4">
-  <img class="img-fluid" src="{{ '/assets/img/research-overview.svg' | relative_url }}" alt="Research overview showing observed data, structured latent representations, identifiable causal structure, statistical inference, and interpretable measurement.">
+  <img class="img-fluid" src="{{ '/assets/img/research-overview.svg' | relative_url }}?v=2f1936b" alt="Research overview showing observed data, structured latent representations, identifiable causal structure, statistical inference, and interpretable measurement.">
 </figure>
 
 ## 1. Identifiable deep and causal representations
