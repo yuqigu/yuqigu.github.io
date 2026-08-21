@@ -8,7 +8,7 @@ description: Columbia University workshop on Statistical Foundations of Latent S
 nav: true
 page_order: 5
 standalone_nav: true
-custom_css: /assets/css/workshop2026.css?v=20260821-shojaie
+custom_css: /assets/css/workshop2026.css?v=20260821-registration
 ---
 
 <main class="workshop-page">
@@ -33,6 +33,18 @@ custom_css: /assets/css/workshop2026.css?v=20260821-shojaie
     <h2 id="about-heading">About</h2>
     <p>Many modern problems in statistics and machine learning depend on uncovering latent structure and learning informative representations from complex, high-dimensional data. These problems raise fundamental questions about identifiability, statistical efficiency, uncertainty quantification, computation, causality, and interpretability, with connections spanning latent variable models, high-dimensional statistics, networks, and modern representation learning.</p>
     <p>This two-day workshop brings together researchers from statistics, machine learning, data science, and related fields to discuss recent advances and explore emerging connections across these areas, with an emphasis on the statistical foundations of latent structure and representation learning.</p>
+  </section>
+
+  <!-- Workshop registration -->
+  <section class="workshop-section workshop-details workshop-registration" aria-labelledby="registration-heading">
+    <h2 id="registration-heading">Registration</h2>
+    <p>Registration is free and open to interested participants. Advance registration is requested to help us plan seating and refreshments. Please register by <strong><time datetime="2026-09-30">September 30, 2026</time></strong> if possible. Late registration may remain available subject to space.</p>
+    <p class="workshop-registration__action">
+      <a class="workshop-button" href="https://docs.google.com/forms/d/e/1FAIpQLSfA1hCGPZNUpmGImbjhuyvi303jHmLv05Pbq4xRST8sldyHuA/viewform" target="_blank" rel="noopener noreferrer">
+        Register for the Workshop<span class="sr-only"> (opens in a new tab)</span>
+      </a>
+    </p>
+    <p class="workshop-registration__note">PhD students and postdoctoral researchers interested in presenting a poster should use the separate <a href="#poster-session">poster submission form below</a>.</p>
   </section>
 
   <!-- Workshop speakers -->
@@ -129,7 +141,7 @@ custom_css: /assets/css/workshop2026.css?v=20260821-shojaie
   </section>
 
   <!-- Junior researcher poster session -->
-  <section class="workshop-section workshop-details workshop-poster" aria-labelledby="poster-heading">
+  <section id="poster-session" class="workshop-section workshop-details workshop-poster" aria-labelledby="poster-heading">
     <h2 id="poster-heading">Junior Researcher Poster Session</h2>
     <div class="workshop-poster__panel">
       <p>A junior researcher poster session is tentatively planned for approximately <strong>4:30–6:00 p.m. on November 4</strong>. PhD students and postdoctoral researchers are invited to submit work broadly related to latent structure, representation learning, high-dimensional statistics, causal learning, statistical machine learning, and related areas. The session will provide junior researchers with an opportunity to present their work and interact with workshop participants.</p>

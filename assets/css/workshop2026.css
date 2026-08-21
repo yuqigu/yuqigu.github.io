@@ -231,6 +231,21 @@
   font-size: 1.08rem !important;
 }
 
+.workshop-registration__action {
+  margin: 1.4rem 0 1rem;
+}
+
+.workshop-registration__note {
+  color: var(--workshop-muted) !important;
+  font-size: 0.93rem !important;
+  line-height: 1.55 !important;
+}
+
+.workshop-registration__note a:focus-visible {
+  outline: 3px solid var(--workshop-blue-deep);
+  outline-offset: 3px;
+}
+
 .workshop-poster__panel {
   padding: clamp(1.4rem, 3.5vw, 2.1rem);
   border: 1px solid rgba(35, 101, 139, 0.2);
