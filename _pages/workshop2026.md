@@ -8,7 +8,7 @@ description: Columbia University workshop on Statistical Foundations of Latent S
 nav: true
 page_order: 5
 standalone_nav: true
-custom_css: /assets/css/workshop2026.css?v=20260818-speaker-order-note
+custom_css: /assets/css/workshop2026.css?v=20260821-shojaie
 ---
 
 <main class="workshop-page">
@@ -94,6 +94,11 @@ custom_css: /assets/css/workshop2026.css?v=20260818-speaker-order-note
         <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/rockova-veronika.webp' | relative_url }}" alt="Portrait of Veronika Rockova" width="600" height="600" loading="lazy" decoding="async"></div>
         <h3>Veronika Rockova</h3>
         <p>University of Chicago</p>
+      </a>
+      <a class="speaker-card" href="https://faculty.washington.edu/ashojaie/" target="_blank" rel="noopener noreferrer">
+        <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/shojaie-ali.webp' | relative_url }}" alt="Portrait of Ali Shojaie" width="508" height="508" loading="lazy" decoding="async"></div>
+        <h3>Ali Shojaie</h3>
+        <p>University of Washington</p>
       </a>
       <a class="speaker-card" href="https://sites.google.com/umich.edu/gongjunxu/home" target="_blank" rel="noopener noreferrer">
         <div class="speaker-photo"><img class="speaker-photo--xu" src="{{ '/assets/img/workshop2026/speakers/xu-gongjun.webp' | relative_url }}" alt="Portrait of Gongjun Xu" width="269" height="411" loading="lazy" decoding="async"></div>
