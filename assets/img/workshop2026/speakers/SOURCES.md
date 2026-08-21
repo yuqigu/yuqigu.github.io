@@ -15,6 +15,7 @@ All photographs below were downloaded from a speaker's personal academic homepag
 | Carey Priebe | `priebe-carey.webp` | <https://engineering.jhu.edu/faculty/carey-priebe/> | <https://engineering.jhu.edu/wp-content/uploads/2020/07/Carey_Priebe_2-300x300.jpg> |
 | Annie Qu | `qu-annie.webp` | <https://www.pstat.ucsb.edu/people/faculty/annie-qu> | <https://www.pstat.ucsb.edu/sites/default/files/2025-09/Annie%20Qu.jpg> |
 | Veronika Rockova | `rockova-veronika.webp` | <https://stat.uchicago.edu/people/profile/veronika-rockova/> | <https://d3qi0qp55mx5f5.cloudfront.net/stat/i/people/Faculty_Affiliates/2022/Rockova_Veronika_600x600.jpg?mtime=1669477880> |
+| Ali Shojaie | `shojaie-ali.webp` | <https://faculty.washington.edu/ashojaie/> | <https://faculty.washington.edu/ashojaie/images/ali5.jpg> |
 | Gongjun Xu | `xu-gongjun.webp` | <https://sites.google.com/umich.edu/gongjunxu/home> | <https://lh3.googleusercontent.com/sitesv/AG8ngQXiDbNAfYj0MFs-M1ld5jc-wuyOb43KCRMgdqt-3kzf0uqbcBHihD89m4Pyq8CxL7JETYQKefdyt22bUakcRugPS7phk-Yr6MPJw3Ssqmf3fgTdfmeq1UMV-We8wrMn3sZ1pejeAj9H-1QkFIL7oSjwNk0BTMQsSBcTn9s4plXDfsww-m6czVW1wtO-aWsUwNS3-BymrjCbRza0bDpy1uq4R58nbbfZKw_Q=w1280> |
 | Bin Yu | `yu-bin.webp` | <https://binyu.stat.berkeley.edu/> | <https://binyu.stat.berkeley.edu/images/binyu.jpg> |
 | Kun Zhang | `zhang-kun.webp` | <https://www.andrew.cmu.edu/user/kunz1/index.html> | <https://www.andrew.cmu.edu/user/kunz1/images/team/kun-zhang1.jpg> |

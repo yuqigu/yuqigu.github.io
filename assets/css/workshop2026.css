@@ -341,10 +341,24 @@
   }
 }
 
+@media (min-width: 576px) and (max-width: 991.98px) {
+  .speaker-grid > .speaker-card:last-child:nth-child(odd) {
+    grid-column: 1 / -1;
+    width: calc((100% - 1.5rem) / 2);
+    justify-self: center;
+  }
+}
+
 @media (min-width: 992px) {
   .workshop-hero__title-line {
     display: block;
     white-space: nowrap;
+  }
+
+  .speaker-grid > .speaker-card:last-child:nth-child(4n + 1) {
+    grid-column: 1 / -1;
+    width: calc((100% - 4.05rem) / 4);
+    justify-self: center;
   }
 }
 
