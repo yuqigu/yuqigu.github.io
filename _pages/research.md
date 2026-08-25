@@ -7,7 +7,7 @@ nav: true
 page_order: 1
 ---
 
-My research develops statistical foundations and methodology for learning interpretable latent representations from complex data. A recurring goal is to understand when latent structures are identifiable, how they can be learned and quantified reliably in high dimensions, and how statistically grounded representations can support scientific measurement and modern AI.
+My research develops statistical foundations and methodology for learning interpretable **latent structure** from complex data. A recurring goal is to understand when latent structures are identifiable, how they can be learned and quantified reliably in high dimensions, and how statistically grounded representations can support scientific measurement and modern AI.
 
 For a complete chronological list of papers and preprints, see [Publications]({{ '/publications/' | relative_url }}).
 
