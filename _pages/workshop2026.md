@@ -166,7 +166,7 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
         </div>
       </dl>
 
-      <p class="workshop-poster__support">A limited number of travel-support awards of <strong>up to $500 per presenter</strong> will be available to help nonlocal PhD students and postdoctoral presenters offset workshop-related transportation and lodging expenses. Junior faculty are welcome to submit and present posters but are not eligible for these travel-support awards.</p>
+      <p class="workshop-poster__support">A limited number of travel-support awards of <strong>up to $500 per presenter</strong> will be available to help nonlocal PhD students and postdoctoral presenters offset workshop-related transportation and lodging expenses.</p>
 
       <p class="workshop-poster__action">
         <a class="workshop-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeXfJgDAlFJbKD7P7NwBwjT5J_xsUux9lsB2fol3JYMeqADZg/viewform" target="_blank" rel="noopener noreferrer">
