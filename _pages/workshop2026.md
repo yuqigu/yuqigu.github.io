@@ -8,7 +8,7 @@ description: Columbia University workshop on Statistical Foundations of Latent S
 nav: true
 page_order: 5
 standalone_nav: true
-custom_css: /assets/css/workshop2026.css?v=20260821-registration
+custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
 ---
 
 <main class="workshop-page">
@@ -126,6 +126,11 @@ custom_css: /assets/css/workshop2026.css?v=20260821-registration
         <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/zhang-kun.webp' | relative_url }}" alt="Portrait of Kun Zhang" width="700" height="700" loading="lazy" decoding="async"></div>
         <h3>Kun Zhang</h3>
         <p>Carnegie Mellon University</p>
+      </a>
+      <a class="speaker-card" href="https://sph.unc.edu/adv_profile/hongtu-zhu-phd/" target="_blank" rel="noopener noreferrer">
+        <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/zhu-hongtu.webp' | relative_url }}" alt="Portrait of Hongtu Zhu" width="700" height="677" loading="lazy" decoding="async"></div>
+        <h3>Hongtu Zhu</h3>
+        <p>UNC Chapel Hill</p>
       </a>
       <a class="speaker-card" href="https://dept.stat.lsa.umich.edu/~jizhu/" target="_blank" rel="noopener noreferrer">
         <div class="speaker-photo"><img class="speaker-photo--zhu" src="{{ '/assets/img/workshop2026/speakers/zhu-ji.webp' | relative_url }}" alt="Portrait of Ji Zhu" width="525" height="700" loading="lazy" decoding="async"></div>
