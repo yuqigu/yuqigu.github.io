@@ -57,7 +57,7 @@ wikidata_id: # your wikidata id
 
 contact_note:
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: G-1X6HTLZCFH # Google Analytics 4 measurement ID
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
