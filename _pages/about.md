@@ -24,9 +24,9 @@ In 2015 I received a B.S. in [Mathematics](https://math.tsinghua.edu.cn/){:targe
 My first name can be pronounced as `/ju:-tʃi:/`. My name in Chinese is 顾雨琦.
 
 My research develops statistical theory and methods for uncovering **latent structure** in modern complex data. A unifying theme is to make latent structure and representation learning identifiable, interpretable, computationally scalable, and statistically reliable.
-+ **Identifiable deep generative models and causal representation learning**: I study identifiability, latent graph discovery, and causal representation learning in nonlinear probabilistic graphical models with latent structures.
++ **Identifiable deep generative models and causal representation learning**: I study identifiability, latent architecture and graph discovery, and causal representation learning in deep generative and nonlinear latent-variable models, with a particular interest in when learned representations admit meaningful statistical or causal interpretation.
 + **High-dimensional statistical inference for latent structure**: The high dimensionality and latent structure pose double statistical challenges. I develop spectral, tensor, and likelihood-based methods for mixture, mixed-membership, and nonlinear low-rank representation problems, with finite-sample theory and uncertainty quantification.
-+ **Latent variable models for psychometrics, heterogeneous data, and AI evaluation**: I propose principled latent variable models for educational, psychological, biomedical, and language-model data, including cognitive diagnosis, item response theory, and psychometric frameworks for evaluating large language models (LLMs).
++ **Statistical measurement and evaluation of LLMs and AI systems**: Building on my earlier work in psychometrics and educational assessment, I develop latent-variable and statistical frameworks for measuring, comparing, and interpreting complex AI systems beyond aggregate benchmark scores. Current work studies latent capabilities, semantic task structure, reasoning behavior, and auxiliary representations when evaluating large language models.
 
 [Here is my CV]({{ '/assets/pdf/YuqiGu_CV.pdf' | relative_url }}).
 
