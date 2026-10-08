@@ -77,6 +77,11 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
         <h3>Jianqing Fan</h3>
         <p>Princeton University</p>
       </a>
+      <a class="speaker-card" href="https://artsci.washu.edu/faculty-staff/joe-feldman" target="_blank" rel="noopener noreferrer">
+        <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/feldman-joseph.webp' | relative_url }}" alt="Portrait of Joseph Feldman" width="680" height="680" loading="lazy" decoding="async"></div>
+        <h3>Joseph Feldman</h3>
+        <p>Washington University in St. Louis</p>
+      </a>
       <a class="speaker-card" href="https://biweihuang.com/" target="_blank" rel="noopener noreferrer">
         <div class="speaker-photo"><img class="speaker-photo--huang" src="{{ '/assets/img/workshop2026/speakers/huang-biwei.webp' | relative_url }}" alt="Portrait of Biwei Huang" width="240" height="265" loading="lazy" decoding="async"></div>
         <h3>Biwei Huang</h3>

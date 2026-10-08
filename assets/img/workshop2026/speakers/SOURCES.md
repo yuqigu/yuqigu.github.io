@@ -1,6 +1,6 @@
 # Workshop 2026 speaker photo sources
 
-All photographs below were downloaded from a speaker's personal academic homepage or an official university profile and converted locally to WebP.
+All photographs below were downloaded from a speaker's personal academic homepage or an official university profile and saved as WebP (converted locally when needed).
 
 | Speaker | Local file | Source webpage | Original image |
 | --- | --- | --- | --- |
@@ -9,6 +9,7 @@ All photographs below were downloaded from a speaker's personal academic homepag
 | Yuxin Chen | `chen-yuxin.webp` | <https://statistics.wharton.upenn.edu/profile/yuxinc/> | <https://faculty.wharton.upenn.edu/wp-content/uploads/2022/01/Yuxin_Chen_3781_1142.jpg> |
 | David Dunson | `dunson-david.webp` | <https://scholars.duke.edu/person/dunson> | <https://scholars.duke.edu/profile-images/thumbnail500/0277221.jpg> |
 | Jianqing Fan | `fan-jianqing.webp` | <https://www.pacm.princeton.edu/people/jianqing-fan> | <https://www.pacm.princeton.edu/sites/default/files/2024-09/fan.JPG> |
+| Joseph Feldman | `feldman-joseph.webp` | <https://artsci.washu.edu/faculty-staff/joe-feldman> | <https://sds.washu.edu/sites/sds.washu.edu/files/styles/square_1_1_680w/public/thumbnail_Joe%20Feldman%20resize_0.jpg.webp?h=04d92ac6> |
 | Biwei Huang | `huang-biwei.webp` | <https://datascience.ucsd.edu/people/biwei-huang/> | <https://datascience.ucsd.edu/wp-content/uploads/2022/12/biweihuang_headshot.jpeg> |
 | Jiashun Jin | `jin-jiashun.webp` | <https://www.cmu.edu/dietrich/statistics-datascience/people/faculty/jiashun-jin.html> | <https://www.cmu.edu/dietrich/statistics-datascience/people/faculty/images/jiashun-jin-800x800-min.jpg> |
 | George Michailidis | `michailidis-george.webp` | <https://datax.ucla.edu/people/george-michailidis> | <https://datax.ucla.edu/sites/default/files/styles/person_image_large/public/2025-05/George%20M.png?h=35a0ae88&itok=epcLZiNe> |
