@@ -106,10 +106,11 @@ git status --short --branch
 git push origin source
 ```
 
-Do not use `--force` or `--force-with-lease`. The repository contains
-`.github/workflows/deploy.yml`, so a source push may also start the legacy
-GitHub Actions deployment workflow. The manual publishing procedure below
-remains the established deployment path for `gh-pages`.
+Do not use `--force` or `--force-with-lease`. The obsolete `Deploy` GitHub
+Actions workflow (`.github/workflows/deploy.yml`) has been retired. Source
+pushes do not deploy the site. Use the manual publishing procedure below for
+`gh-pages`; GitHub's separate `pages-build-deployment` workflow publishes that
+branch and must remain enabled.
 
 ## Deploy the generated site
 
@@ -191,6 +192,11 @@ site corresponds to a reproducible source commit.
    `https://yuqigu.github.io/`.
 
 ## Legacy deployment script
+
+The obsolete `Deploy` workflow has been removed from `source`. Do not restore
+it or re-enable it without an explicit request to change the deployment
+workflow. It used retired actions and invoked `bin/deploy` against `master`,
+which conflicts with the established `gh-pages` publishing procedure.
 
 Do not use `bin/deploy` for the normal deployment workflow. The current script
 deletes and recreates a local deployment branch, removes files, and force-pushes
