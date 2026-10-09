@@ -162,7 +162,7 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
         </div>
       </dl>
 
-      <p class="workshop-poster__support">Columbia and other local early-career researchers are welcome to submit posters. No additional travel support is available; existing presenter arrangements remain unchanged.</p>
+      <p class="workshop-poster__support">Columbia and other local early-career researchers are welcome to submit posters.</p>
 
       <p class="workshop-poster__action">
         <a class="workshop-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeXfJgDAlFJbKD7P7NwBwjT5J_xsUux9lsB2fol3JYMeqADZg/viewform" target="_blank" rel="noopener noreferrer">
