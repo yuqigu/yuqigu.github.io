@@ -44,7 +44,7 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
         Register for the Workshop<span class="sr-only"> (opens in a new tab)</span>
       </a>
     </p>
-    <p class="workshop-registration__note">PhD students, postdoctoral researchers, and junior faculty interested in presenting a poster should use the separate <a href="#poster-session">poster submission form below</a>.</p>
+    <p class="workshop-registration__note">Poster submissions are now closed. See the <a href="#poster-session">poster session details below</a>.</p>
   </section>
 
   <!-- Workshop speakers -->
@@ -144,26 +144,8 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
   <section id="poster-session" class="workshop-section workshop-details workshop-poster" aria-labelledby="poster-heading">
     <h2 id="poster-heading">Early-Career Researcher Poster Session</h2>
     <div class="workshop-poster__panel">
-      <p>An early-career researcher poster session is tentatively planned for approximately <strong>4:30–6:00 p.m. on November 4</strong>. Early-career researchers (including PhD students, postdoctoral researchers, and junior faculty) are invited to submit work broadly related to latent structure, representation learning, high-dimensional statistics, causal learning, statistical machine learning, and related areas. The session will provide early-career researchers with an opportunity to present their work and interact with workshop speakers and participants.</p>
-
-      <dl class="workshop-poster__facts">
-        <div>
-          <dt>Local poster submission deadline</dt>
-          <dd><time datetime="2026-10-15">October 15, 2026</time></dd>
-        </div>
-        <div>
-          <dt>Submission</dt>
-          <dd>Poster title and a short abstract of 250 words or fewer</dd>
-        </div>
-      </dl>
-
-      <p class="workshop-poster__support">Columbia and other local early-career researchers are welcome to submit posters.</p>
-
-      <p class="workshop-poster__action">
-        <a class="workshop-button" href="https://docs.google.com/forms/d/e/1FAIpQLSeXfJgDAlFJbKD7P7NwBwjT5J_xsUux9lsB2fol3JYMeqADZg/viewform" target="_blank" rel="noopener noreferrer">
-          Submit a Poster Abstract<span class="sr-only"> (opens in a new tab)</span>
-        </a>
-      </p>
+      <p>An early-career researcher poster session is tentatively planned for approximately <strong>4:30–6:00 p.m. on November 4</strong>. The session will feature work broadly related to latent structure, representation learning, high-dimensional statistics, causal learning, statistical machine learning, and related areas, and will provide early-career researchers with an opportunity to present their work and interact with workshop speakers and participants.</p>
+      <p class="workshop-poster__support">Poster submissions are now closed. Thank you for your interest.</p>
     </div>
   </section>
 
