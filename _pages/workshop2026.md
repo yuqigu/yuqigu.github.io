@@ -87,6 +87,11 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
         <h3>Jiashun Jin</h3>
         <p>Carnegie Mellon University</p>
       </a>
+      <a class="speaker-card" href="https://www.tracyke.net/" target="_blank" rel="noopener noreferrer">
+        <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/ke-tracy.webp' | relative_url }}" alt="Portrait of Tracy Ke" width="660" height="700" loading="lazy" decoding="async"></div>
+        <h3>Tracy Ke</h3>
+        <p>Harvard University</p>
+      </a>
       <a class="speaker-card" href="https://georgemichailidis.github.io/" target="_blank" rel="noopener noreferrer">
         <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/michailidis-george.webp' | relative_url }}" alt="Portrait of George Michailidis" width="600" height="600" loading="lazy" decoding="async"></div>
         <h3>George Michailidis</h3>
