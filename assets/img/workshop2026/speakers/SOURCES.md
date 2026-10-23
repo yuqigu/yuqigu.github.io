@@ -12,6 +12,7 @@ All photographs below were downloaded from a speaker's personal academic homepag
 | Joseph Feldman | `feldman-joseph.webp` | <https://artsci.washu.edu/faculty-staff/joe-feldman> | <https://sds.washu.edu/sites/sds.washu.edu/files/styles/square_1_1_680w/public/thumbnail_Joe%20Feldman%20resize_0.jpg.webp?h=04d92ac6> |
 | Biwei Huang | `huang-biwei.webp` | <https://datascience.ucsd.edu/people/biwei-huang/> | <https://datascience.ucsd.edu/wp-content/uploads/2022/12/biweihuang_headshot.jpeg> |
 | Jiashun Jin | `jin-jiashun.webp` | <https://www.cmu.edu/dietrich/statistics-datascience/people/faculty/jiashun-jin.html> | <https://www.cmu.edu/dietrich/statistics-datascience/people/faculty/images/jiashun-jin-800x800-min.jpg> |
+| Tracy Ke | `ke-tracy.webp` | <https://www.tracyke.net/> | <https://www.tracyke.net/files/Tracy_Ke.jpg> |
 | George Michailidis | `michailidis-george.webp` | <https://datax.ucla.edu/people/george-michailidis> | <https://datax.ucla.edu/sites/default/files/styles/person_image_large/public/2025-05/George%20M.png?h=35a0ae88&itok=epcLZiNe> |
 | Carey Priebe | `priebe-carey.webp` | <https://engineering.jhu.edu/faculty/carey-priebe/> | <https://engineering.jhu.edu/wp-content/uploads/2020/07/Carey_Priebe_2-300x300.jpg> |
 | Annie Qu | `qu-annie.webp` | <https://www.pstat.ucsb.edu/people/faculty/annie-qu> | <https://www.pstat.ucsb.edu/sites/default/files/2025-09/Annie%20Qu.jpg> |
