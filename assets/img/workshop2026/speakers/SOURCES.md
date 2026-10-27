@@ -10,6 +10,7 @@ All photographs below were downloaded from a speaker's personal academic homepag
 | David Dunson | `dunson-david.webp` | <https://scholars.duke.edu/person/dunson> | <https://scholars.duke.edu/profile-images/thumbnail500/0277221.jpg> |
 | Jianqing Fan | `fan-jianqing.webp` | <https://www.pacm.princeton.edu/people/jianqing-fan> | <https://www.pacm.princeton.edu/sites/default/files/2024-09/fan.JPG> |
 | Joseph Feldman | `feldman-joseph.webp` | <https://artsci.washu.edu/faculty-staff/joe-feldman> | <https://sds.washu.edu/sites/sds.washu.edu/files/styles/square_1_1_680w/public/thumbnail_Joe%20Feldman%20resize_0.jpg.webp?h=04d92ac6> |
+| Yihong Gu | `gu-yihong.webp` | <https://sites.google.com/view/yihongg/home> | <https://sites.google.com/sitesv-images-rt/AMxu72s6vJDQay2FX9weZ82a7JTll4DQ1YEhX-Hk5TTaYGpxM3wWFEmpQ0VqW86jkYBOo5dmBdwEB3YzmQyyx-QVUjXrK98jI4QmHPkTaqzf-2LYm9PLVXxGQ-vDPTz-aHJufmX2pzYfuDSjMNmkm092Ok7xivZfpVA6FdAWz0utCnQg5vJLepAdovxuLOly9fh1bl6nPADEsBNGHILjQpyR-3XpF231B5NIYP59n4Rd=w1280> |
 | Biwei Huang | `huang-biwei.webp` | <https://datascience.ucsd.edu/people/biwei-huang/> | <https://datascience.ucsd.edu/wp-content/uploads/2022/12/biweihuang_headshot.jpeg> |
 | Jiashun Jin | `jin-jiashun.webp` | <https://www.cmu.edu/dietrich/statistics-datascience/people/faculty/jiashun-jin.html> | <https://www.cmu.edu/dietrich/statistics-datascience/people/faculty/images/jiashun-jin-800x800-min.jpg> |
 | Tracy Ke | `ke-tracy.webp` | <https://www.tracyke.net/> | <https://www.tracyke.net/files/Tracy_Ke.jpg> |
