@@ -57,11 +57,6 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
         <h3>Florentina Bunea</h3>
         <p>Cornell University</p>
       </a>
-      <a class="speaker-card" href="https://celehs.hms.harvard.edu/tcai/index.html" target="_blank" rel="noopener noreferrer">
-        <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/cai-tianxi.webp' | relative_url }}" alt="Portrait of Tianxi Cai" width="150" height="150" loading="lazy" decoding="async"></div>
-        <h3>Tianxi Cai</h3>
-        <p>Harvard University</p>
-      </a>
       <a class="speaker-card" href="https://yuxinchen2020.github.io/index.html" target="_blank" rel="noopener noreferrer">
         <div class="speaker-photo"><img class="speaker-photo--chen" src="{{ '/assets/img/workshop2026/speakers/chen-yuxin.webp' | relative_url }}" alt="Portrait of Yuxin Chen" width="700" height="467" loading="lazy" decoding="async"></div>
         <h3>Yuxin Chen</h3>
@@ -81,6 +76,11 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
         <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/feldman-joseph.webp' | relative_url }}" alt="Portrait of Joseph Feldman" width="680" height="680" loading="lazy" decoding="async"></div>
         <h3>Joseph Feldman</h3>
         <p>Washington University in St. Louis</p>
+      </a>
+      <a class="speaker-card" href="https://sites.google.com/view/yihongg/home" target="_blank" rel="noopener noreferrer">
+        <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/gu-yihong.webp' | relative_url }}" alt="Portrait of Yihong Gu" width="501" height="501" loading="lazy" decoding="async"></div>
+        <h3>Yihong Gu</h3>
+        <p>Harvard University</p>
       </a>
       <a class="speaker-card" href="https://www.stat.cmu.edu/~jiashun/" target="_blank" rel="noopener noreferrer">
         <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/jin-jiashun.webp' | relative_url }}" alt="Portrait of Jiashun Jin" width="700" height="700" loading="lazy" decoding="async"></div>
@@ -149,7 +149,7 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
   <section id="poster-session" class="workshop-section workshop-details workshop-poster" aria-labelledby="poster-heading">
     <h2 id="poster-heading">Early-Career Researcher Poster Session</h2>
     <div class="workshop-poster__panel">
-      <p>An early-career researcher poster session is tentatively planned for approximately <strong>4:30–6:00 p.m. on November 4</strong>. The session will feature work broadly related to latent structure, representation learning, high-dimensional statistics, causal learning, statistical machine learning, and related areas, and will provide early-career researchers with an opportunity to present their work and interact with workshop speakers and participants.</p>
+      <p>An early-career researcher poster session will be held from <strong>4:45–6:15 p.m. on November 4</strong> in <strong>Room 214, School of Social Work building</strong>. The session will feature work broadly related to latent structure, representation learning, high-dimensional statistics, causal learning, statistical machine learning, and related areas, and will provide early-career researchers with an opportunity to present their work and interact with workshop speakers and participants.</p>
       <p class="workshop-poster__support">Poster submissions are now closed. Thank you for your interest.</p>
     </div>
   </section>
@@ -158,14 +158,24 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
   <section class="workshop-section workshop-details" aria-labelledby="program-heading">
     <h2 id="program-heading">Program</h2>
     <p class="workshop-details__lead"><strong>Detailed program forthcoming.</strong></p>
-    <p>The workshop will take place November 4–5. The early-career researcher poster session is tentatively scheduled for approximately <strong>4:30–6:00 p.m. on November 4</strong>, and the workshop is expected to conclude on the afternoon of <strong>November 5</strong>. The exact schedule is being finalized; talk titles and the detailed program will be posted as they become available.</p>
+    <p>The workshop will take place November 4–5, with talks beginning at <strong>9:00 a.m. on both days</strong>. Morning talks will be held in <strong>Room C06</strong> and afternoon talks in <strong>Room 903</strong> of the School of Social Work building. The early-career researcher poster session will be held from <strong>4:45–6:15 p.m. on November 4</strong> in <strong>Room 214</strong>, and the workshop is expected to conclude on the afternoon of <strong>November 5</strong>. Talk titles and the detailed program will be posted as they become available.</p>
   </section>
 
   <!-- Workshop location -->
   <section class="workshop-section workshop-details" aria-labelledby="location-heading">
     <h2 id="location-heading">Location</h2>
-    <p class="workshop-details__lead">Columbia University, New York City.</p>
-    <p>The exact venue and logistical details will be posted here when finalized.</p>
+    <p class="workshop-details__lead">School of Social Work building, Columbia University.</p>
+    <p>1255 Amsterdam Avenue, New York, NY 10027. All workshop sessions will take place in this building.</p>
+    <table class="table table-sm" aria-label="Workshop venues">
+      <thead>
+        <tr><th scope="col">Session</th><th scope="col">Date and time</th><th scope="col">Room</th></tr>
+      </thead>
+      <tbody>
+        <tr><th scope="row">Morning talks</th><td>November 4–5, starting at 9:00 a.m.</td><td>C06</td></tr>
+        <tr><th scope="row">Afternoon talks</th><td>November 4–5</td><td>903</td></tr>
+        <tr><th scope="row">Poster session</th><td>November 4, 4:45–6:15 p.m.</td><td>214</td></tr>
+      </tbody>
+    </table>
   </section>
 
   <!-- Workshop organizer and contact -->
