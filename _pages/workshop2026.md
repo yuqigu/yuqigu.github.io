@@ -38,12 +38,7 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
   <!-- Workshop registration -->
   <section class="workshop-section workshop-details workshop-registration" aria-labelledby="registration-heading">
     <h2 id="registration-heading">Registration</h2>
-    <p>Registration is free and open to interested participants. Please register by <strong><time datetime="2026-10-15">October 15, 2026</time></strong> if possible to help us plan seating and refreshments. Later registration may remain available subject to space.</p>
-    <p class="workshop-registration__action">
-      <a class="workshop-button" href="https://docs.google.com/forms/d/e/1FAIpQLSfA1hCGPZNUpmGImbjhuyvi303jHmLv05Pbq4xRST8sldyHuA/viewform" target="_blank" rel="noopener noreferrer">
-        Register for the Workshop<span class="sr-only"> (opens in a new tab)</span>
-      </a>
-    </p>
+    <p>Registration is now closed because the workshop has reached room capacity. Thank you for your interest.</p>
     <p class="workshop-registration__note">Poster submissions are now closed. See the <a href="#poster-session">poster session details below</a>.</p>
   </section>
 
