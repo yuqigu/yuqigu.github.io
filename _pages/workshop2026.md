@@ -38,7 +38,7 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
   <!-- Workshop program -->
   <section class="workshop-section workshop-details" aria-labelledby="program-heading">
     <h2 id="program-heading">Program</h2>
-    <p class="workshop-details__lead"><a href="{{ '/assets/pdf/Columbia_Workshop2026_Program.pdf' | relative_url }}">Program (PDF)</a> &nbsp;·&nbsp; <a href="{{ '/assets/pdf/Columbia_Workshop2026_Program_Book.pdf' | relative_url }}">Program and abstracts (PDF)</a></p>
+    <p class="workshop-details__lead"><a href="{{ '/assets/pdf/Columbia_Workshop2026_Program.pdf' | relative_url }}">Talk program (PDF)</a> &nbsp;·&nbsp; <a href="{{ '/assets/pdf/Columbia_Workshop2026_Program_Book.pdf' | relative_url }}">Talk program and abstracts (PDF)</a> &nbsp;·&nbsp; <a href="{{ '/assets/pdf/Columbia_Workshop2026_Poster_Program.pdf' | relative_url }}">Poster program (PDF)</a></p>
     <p>Breakfast starts at <strong>8:30 a.m.</strong> and talks begin at <strong>9:00 a.m.</strong> on both days.</p>
   </section>
 
