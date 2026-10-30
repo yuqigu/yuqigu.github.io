@@ -147,6 +147,7 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
     <h2 id="poster-heading">Early-Career Researcher Poster Session</h2>
     <div class="workshop-poster__panel">
       <p>An early-career researcher poster session will be held from <strong>4:45–6:15 p.m. on November 4</strong> in <strong>Room 214, School of Social Work building</strong>. The session will feature work broadly related to latent structure, representation learning, high-dimensional statistics, causal learning, statistical machine learning, and related areas, and will provide early-career researchers with an opportunity to present their work and interact with workshop speakers and participants.</p>
+      <p><a href="{{ '/assets/pdf/Columbia_Workshop2026_Poster_Program.pdf' | relative_url }}">Poster program (PDF)</a></p>
       <p class="workshop-poster__support">Poster submissions are now closed. Thank you for your interest.</p>
     </div>
   </section>
