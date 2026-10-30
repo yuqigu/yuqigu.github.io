@@ -46,7 +46,7 @@ Recent work moves beyond idealized local-independence assumptions by modeling la
 ### Selected work
 
 <div class="publications">
-{% bibliography -f papers -q @*[key=chen2024local || key=gu2024atc || key=lyu2024dhlcm || key=lyu2025sola || key=huang2025copo || key=lee2026local]* %}
+{% bibliography -f papers -q @*[key=gu2026crystal || key=chen2024local || key=gu2024atc || key=lyu2024dhlcm || key=lyu2025sola || key=huang2025copo || key=lee2026local]* %}
 </div>
 
 ## 3. Statistical measurement for humans and AI systems
