@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 372" width="320" height="372" role="img" aria-labelledby="fig1a-t fig1a-d" font-family="Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif" class="rf">
+<title id="fig1a-t">Dependence can supply identifying information</title>
+<desc id="fig1a-d">Three small latent-variable graphs. Two latent variables with two measurements each and no dependence: not identifiable. The same design with dependence between the latent variables: identifiable. Three measurements each without dependence: identifiable.</desc>
+<text x="0" y="19" font-size="17" font-weight="700" fill="#14304a" class="f-ink">Dependence</text>
+<text x="0" y="40" font-size="14" font-weight="400" fill="#4f6275" class="f-muted">Same two measurements, different verdict</text>
+<g id="fig1a-independent">
+<line x1="40.64" y1="91.52" x2="33.64" y2="115.52" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="32.24,120.32 31.35,114.33 36.21,115.75" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<rect x="23.5" y="121.5" width="13" height="13" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<line x1="47.36" y1="91.52" x2="54.36" y2="115.52" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="55.76,120.32 51.79,115.75 56.65,114.33" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<rect x="51.5" y="121.5" width="13" height="13" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<line x1="114.64" y1="91.52" x2="107.64" y2="115.52" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="106.24,120.32 105.35,114.33 110.21,115.75" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<rect x="97.5" y="121.5" width="13" height="13" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<line x1="121.36" y1="91.52" x2="128.36" y2="115.52" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="129.76,120.32 125.79,115.75 130.65,114.33" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<rect x="125.5" y="121.5" width="13" height="13" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<circle cx="44" cy="80" r="12" fill="#1f5fa8" class="f-blue"/>
+<circle cx="118" cy="80" r="12" fill="#1f5fa8" class="f-blue"/>
+<rect x="165.5" y="67.5" width="17" height="17" rx="2" fill="#a94a07" class="f-orange"/>
+<path d="M170.2 72.2 L177.8 79.8 M177.8 72.2 L170.2 79.8" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" class="s-bg" stroke-linejoin="round"/>
+<text x="189" y="81" font-size="14" font-weight="400" fill="#14304a" class="f-ink">Independent:</text>
+<text x="189" y="99" font-size="14" font-weight="400" fill="#14304a" class="f-ink">two measurements</text>
+<text x="189" y="117" font-size="14" font-weight="400" fill="#14304a" class="f-ink">cannot pin down</text>
+<text x="189" y="135" font-size="14" font-weight="400" fill="#14304a" class="f-ink">parameters</text>
+</g>
+<g id="fig1a-dependent">
+<rect x="0" y="158" width="320" height="98" rx="6" fill="#e1f1f2" class="f-teal-soft"/>
+<line x1="40.64" y1="197.52" x2="33.64" y2="221.52" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="32.24,226.32 31.35,220.33 36.21,221.75" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<rect x="23.5" y="227.5" width="13" height="13" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<line x1="47.36" y1="197.52" x2="54.36" y2="221.52" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="55.76,226.32 51.79,221.75 56.65,220.33" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<rect x="51.5" y="227.5" width="13" height="13" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<line x1="114.64" y1="197.52" x2="107.64" y2="221.52" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="106.24,226.32 105.35,220.33 110.21,221.75" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<rect x="97.5" y="227.5" width="13" height="13" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<line x1="121.36" y1="197.52" x2="128.36" y2="221.52" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="129.76,226.32 125.79,221.75 130.65,220.33" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<rect x="125.5" y="227.5" width="13" height="13" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<line x1="44" y1="186" x2="118" y2="186" fill="none" stroke="#a94a07" stroke-width="4.2" stroke-linecap="butt" class="s-orange"/>
+<circle cx="44" cy="186" r="12" fill="#1f5fa8" class="f-blue"/>
+<circle cx="118" cy="186" r="12" fill="#1f5fa8" class="f-blue"/>
+<circle cx="174" cy="182" r="9" fill="#086f74" class="f-teal"/>
+<path d="M169.8 182.3 L172.8 185.5 L178.4 178.6" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" class="s-bg" stroke-linejoin="round"/>
+<text x="189" y="187" font-size="14" font-weight="400" fill="#14304a" class="f-ink">Dependent:</text>
+<text x="189" y="205" font-size="14" font-weight="400" fill="#14304a" class="f-ink">the same design</text>
+<text x="189" y="223" font-size="14" font-weight="400" fill="#14304a" class="f-ink">becomes</text>
+<text x="189" y="241" font-size="14" font-weight="400" fill="#14304a" class="f-ink">identifiable</text>
+</g>
+<g id="fig1a-three-children">
+<line x1="35" y1="302.91" x2="23.42" y2="328.18" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="21.33,332.73 21.32,326.67 25.92,328.78" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<rect x="11.5" y="333.5" width="13" height="13" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<line x1="40" y1="304" x2="40" y2="327" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="40,332 37.47,326.5 42.53,326.5" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<rect x="33.5" y="333.5" width="13" height="13" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<line x1="45" y1="302.91" x2="56.58" y2="328.18" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="58.67,332.73 54.08,328.78 58.68,326.67" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<rect x="55.5" y="333.5" width="13" height="13" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<line x1="119" y1="302.91" x2="107.42" y2="328.18" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="105.33,332.73 105.32,326.67 109.92,328.78" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<rect x="95.5" y="333.5" width="13" height="13" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<line x1="124" y1="304" x2="124" y2="327" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="124,332 121.47,326.5 126.53,326.5" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<rect x="117.5" y="333.5" width="13" height="13" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<line x1="129" y1="302.91" x2="140.58" y2="328.18" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="142.67,332.73 138.08,328.78 142.68,326.67" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<rect x="139.5" y="333.5" width="13" height="13" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<circle cx="40" cy="292" r="12" fill="#1f5fa8" class="f-blue"/>
+<circle cx="124" cy="292" r="12" fill="#1f5fa8" class="f-blue"/>
+<circle cx="174" cy="288" r="9" fill="#086f74" class="f-teal"/>
+<path d="M169.8 288.3 L172.8 291.5 L178.4 284.6" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" class="s-bg" stroke-linejoin="round"/>
+<text x="189" y="293" font-size="14" font-weight="400" fill="#14304a" class="f-ink">Three each:</text>
+<text x="189" y="311" font-size="14" font-weight="400" fill="#14304a" class="f-ink">identifiable</text>
+<text x="189" y="329" font-size="14" font-weight="400" fill="#14304a" class="f-ink">with or without</text>
+<text x="189" y="347" font-size="14" font-weight="400" fill="#14304a" class="f-ink">dependence</text>
+</g>
+</svg>

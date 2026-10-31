@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 344" width="420" height="344" role="img" aria-labelledby="fig3d-t fig3d-d" font-family="Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif" class="rf">
+<title id="fig3d-t">Reasoning length improves held-out prediction on mathematics questions</title>
+<desc id="fig3d-d">Dot plot of mean absolute error on held-out questions for five folds and their average. LaRT, which uses answers and reasoning length, has lower error than standard item response theory in every fold. Average error falls from 0.269 to 0.183. Values: fold 1 0.391 and 0.235; fold 2 0.190 and 0.177; fold 3 0.268 and 0.183; fold 4 0.257 and 0.160; fold 5 0.238 and 0.161.</desc>
+<text x="0" y="19" font-size="19" font-weight="700" fill="#14304a" class="f-ink">What the process signal adds</text>
+<text x="0" y="40" font-size="15" font-weight="400" fill="#4f6275" class="f-muted">Held-out prediction, LLM mathematics questions</text>
+<line x1="76" y1="78" x2="76" y2="266" fill="none" stroke="#c5d2dc" stroke-width="1" stroke-linecap="round" class="s-rule"/>
+<text x="76" y="284" font-size="14.5" font-weight="400" fill="#4f6275" class="f-muted" text-anchor="middle">0.1</text>
+<line x1="176" y1="78" x2="176" y2="266" fill="none" stroke="#c5d2dc" stroke-width="1" stroke-linecap="round" class="s-rule"/>
+<text x="176" y="284" font-size="14.5" font-weight="400" fill="#4f6275" class="f-muted" text-anchor="middle">0.2</text>
+<line x1="276" y1="78" x2="276" y2="266" fill="none" stroke="#c5d2dc" stroke-width="1" stroke-linecap="round" class="s-rule"/>
+<text x="276" y="284" font-size="14.5" font-weight="400" fill="#4f6275" class="f-muted" text-anchor="middle">0.3</text>
+<line x1="376" y1="78" x2="376" y2="266" fill="none" stroke="#c5d2dc" stroke-width="1" stroke-linecap="round" class="s-rule"/>
+<text x="376" y="284" font-size="14.5" font-weight="400" fill="#4f6275" class="f-muted" text-anchor="middle">0.4</text>
+<text x="236" y="302" font-size="14.5" font-weight="400" fill="#4f6275" class="f-muted" text-anchor="middle">Mean absolute error (lower is better)</text>
+<g id="fig3d-dumbbells">
+<text x="4" y="95" font-size="15" font-weight="400" fill="#14304a" class="f-ink">Fold 1</text>
+<line x1="211" y1="90" x2="367" y2="90" fill="none" stroke="#14304a" stroke-width="1.8" opacity="0.55" stroke-linecap="butt" class="s-ink"/>
+<rect x="361.8" y="84.8" width="10.4" height="10.4" rx="0" fill="#ffffff" stroke="#4f6275" stroke-width="2" class="f-bg s-muted"/>
+<circle cx="211" cy="90" r="5.8" fill="#086f74" class="f-teal"/>
+<text x="4" y="125" font-size="15" font-weight="400" fill="#14304a" class="f-ink">Fold 2</text>
+<line x1="153" y1="120" x2="166" y2="120" fill="none" stroke="#14304a" stroke-width="1.8" opacity="0.55" stroke-linecap="butt" class="s-ink"/>
+<rect x="160.8" y="114.8" width="10.4" height="10.4" rx="0" fill="#ffffff" stroke="#4f6275" stroke-width="2" class="f-bg s-muted"/>
+<circle cx="153" cy="120" r="5.8" fill="#086f74" class="f-teal"/>
+<text x="4" y="155" font-size="15" font-weight="400" fill="#14304a" class="f-ink">Fold 3</text>
+<line x1="159" y1="150" x2="244" y2="150" fill="none" stroke="#14304a" stroke-width="1.8" opacity="0.55" stroke-linecap="butt" class="s-ink"/>
+<rect x="238.8" y="144.8" width="10.4" height="10.4" rx="0" fill="#ffffff" stroke="#4f6275" stroke-width="2" class="f-bg s-muted"/>
+<circle cx="159" cy="150" r="5.8" fill="#086f74" class="f-teal"/>
+<text x="4" y="185" font-size="15" font-weight="400" fill="#14304a" class="f-ink">Fold 4</text>
+<line x1="136" y1="180" x2="233" y2="180" fill="none" stroke="#14304a" stroke-width="1.8" opacity="0.55" stroke-linecap="butt" class="s-ink"/>
+<rect x="227.8" y="174.8" width="10.4" height="10.4" rx="0" fill="#ffffff" stroke="#4f6275" stroke-width="2" class="f-bg s-muted"/>
+<circle cx="136" cy="180" r="5.8" fill="#086f74" class="f-teal"/>
+<text x="4" y="215" font-size="15" font-weight="400" fill="#14304a" class="f-ink">Fold 5</text>
+<line x1="137" y1="210" x2="214" y2="210" fill="none" stroke="#14304a" stroke-width="1.8" opacity="0.55" stroke-linecap="butt" class="s-ink"/>
+<rect x="208.8" y="204.8" width="10.4" height="10.4" rx="0" fill="#ffffff" stroke="#4f6275" stroke-width="2" class="f-bg s-muted"/>
+<circle cx="137" cy="210" r="5.8" fill="#086f74" class="f-teal"/>
+<rect x="0" y="233" width="420" height="30" rx="5" fill="#eef2f5" class="f-grey-soft"/>
+<text x="4" y="253" font-size="15" font-weight="700" fill="#14304a" class="f-ink">Average</text>
+<line x1="159" y1="248" x2="245" y2="248" fill="none" stroke="#14304a" stroke-width="3" opacity="0.8" stroke-linecap="butt" class="s-ink"/>
+<rect x="238.5" y="241.5" width="13" height="13" rx="0" fill="#ffffff" stroke="#4f6275" stroke-width="2" class="f-bg s-muted"/>
+<circle cx="159" cy="248" r="7.1" fill="#086f74" class="f-teal"/>
+<text x="148" y="253" font-size="15" font-weight="700" fill="#086f74" class="f-teal" text-anchor="end">0.183</text>
+<text x="256" y="253" font-size="15" font-weight="700" fill="#4f6275" class="f-muted">0.269</text>
+</g>
+<text x="239" y="74" font-size="14.5" font-weight="500" fill="#086f74" class="f-teal" text-anchor="end">LaRT: answers + length</text>
+<text x="375" y="74" font-size="14.5" font-weight="500" fill="#4f6275" class="f-muted" text-anchor="end">IRT: answers</text>
+</svg>

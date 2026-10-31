@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 372" width="320" height="372" role="img" aria-labelledby="fig1c-t fig1c-d" font-family="Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif" class="rf">
+<title id="fig1c-t">What discrete causal representation learning identifies</title>
+<desc id="fig1c-d">Four latent variables with a directed graph among them, each with three measurements. A checklist states that the measurement graph, the latent distribution and measurement parameters, and the latent causal graph up to Markov equivalence are identified.</desc>
+<text x="0" y="19" font-size="17" font-weight="700" fill="#14304a" class="f-ink">Causal representations</text>
+<text x="0" y="40" font-size="14" font-weight="400" fill="#4f6275" class="f-muted">What observed data can determine</text>
+<g id="fig1c-measurement">
+<line x1="39.04" y1="85.68" x2="18.54" y2="180.27" fill="none" stroke="#4f6275" stroke-width="1.15" opacity="0.9" stroke-linecap="butt" class="s-muted"/>
+<polygon points="17.48,185.16 16.17,179.25 21.12,180.32" fill="#4f6275" opacity="0.9" class="f-muted" stroke-linejoin="round"/>
+<line x1="42" y1="86" x2="42" y2="180" fill="none" stroke="#4f6275" stroke-width="1.15" opacity="0.9" stroke-linecap="butt" class="s-muted"/>
+<polygon points="42,185 39.47,179.5 44.53,179.5" fill="#4f6275" opacity="0.9" class="f-muted" stroke-linejoin="round"/>
+<line x1="44.96" y1="85.68" x2="65.46" y2="180.27" fill="none" stroke="#4f6275" stroke-width="1.15" opacity="0.9" stroke-linecap="butt" class="s-muted"/>
+<polygon points="66.52,185.16 62.88,180.32 67.83,179.25" fill="#4f6275" opacity="0.9" class="f-muted" stroke-linejoin="round"/>
+<line x1="115" y1="137.08" x2="98.29" y2="180.79" fill="none" stroke="#4f6275" stroke-width="1.15" opacity="0.9" stroke-linecap="butt" class="s-muted"/>
+<polygon points="96.5,185.46 96.1,179.42 100.83,181.23" fill="#4f6275" opacity="0.9" class="f-muted" stroke-linejoin="round"/>
+<line x1="120" y1="138" x2="120" y2="180" fill="none" stroke="#4f6275" stroke-width="1.15" opacity="0.9" stroke-linecap="butt" class="s-muted"/>
+<polygon points="120,185 117.47,179.5 122.53,179.5" fill="#4f6275" opacity="0.9" class="f-muted" stroke-linejoin="round"/>
+<line x1="125" y1="137.08" x2="141.71" y2="180.79" fill="none" stroke="#4f6275" stroke-width="1.15" opacity="0.9" stroke-linecap="butt" class="s-muted"/>
+<polygon points="143.5,185.46 139.17,181.23 143.9,179.42" fill="#4f6275" opacity="0.9" class="f-muted" stroke-linejoin="round"/>
+<line x1="193" y1="137.08" x2="176.29" y2="180.79" fill="none" stroke="#4f6275" stroke-width="1.15" opacity="0.9" stroke-linecap="butt" class="s-muted"/>
+<polygon points="174.5,185.46 174.1,179.42 178.83,181.23" fill="#4f6275" opacity="0.9" class="f-muted" stroke-linejoin="round"/>
+<line x1="198" y1="138" x2="198" y2="180" fill="none" stroke="#4f6275" stroke-width="1.15" opacity="0.9" stroke-linecap="butt" class="s-muted"/>
+<polygon points="198,185 195.47,179.5 200.53,179.5" fill="#4f6275" opacity="0.9" class="f-muted" stroke-linejoin="round"/>
+<line x1="203" y1="137.08" x2="219.71" y2="180.79" fill="none" stroke="#4f6275" stroke-width="1.15" opacity="0.9" stroke-linecap="butt" class="s-muted"/>
+<polygon points="221.5,185.46 217.17,181.23 221.9,179.42" fill="#4f6275" opacity="0.9" class="f-muted" stroke-linejoin="round"/>
+<line x1="273.04" y1="85.68" x2="252.54" y2="180.27" fill="none" stroke="#4f6275" stroke-width="1.15" opacity="0.9" stroke-linecap="butt" class="s-muted"/>
+<polygon points="251.48,185.16 250.17,179.25 255.12,180.32" fill="#4f6275" opacity="0.9" class="f-muted" stroke-linejoin="round"/>
+<line x1="276" y1="86" x2="276" y2="180" fill="none" stroke="#4f6275" stroke-width="1.15" opacity="0.9" stroke-linecap="butt" class="s-muted"/>
+<polygon points="276,185 273.47,179.5 278.53,179.5" fill="#4f6275" opacity="0.9" class="f-muted" stroke-linejoin="round"/>
+<line x1="278.96" y1="85.68" x2="299.46" y2="180.27" fill="none" stroke="#4f6275" stroke-width="1.15" opacity="0.9" stroke-linecap="butt" class="s-muted"/>
+<polygon points="300.52,185.16 296.88,180.32 301.83,179.25" fill="#4f6275" opacity="0.9" class="f-muted" stroke-linejoin="round"/>
+<rect x="10.25" y="186.25" width="11.5" height="11.5" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<rect x="36.25" y="186.25" width="11.5" height="11.5" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<rect x="62.25" y="186.25" width="11.5" height="11.5" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<rect x="88.25" y="186.25" width="11.5" height="11.5" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<rect x="114.25" y="186.25" width="11.5" height="11.5" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<rect x="140.25" y="186.25" width="11.5" height="11.5" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<rect x="166.25" y="186.25" width="11.5" height="11.5" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<rect x="192.25" y="186.25" width="11.5" height="11.5" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<rect x="218.25" y="186.25" width="11.5" height="11.5" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<rect x="244.25" y="186.25" width="11.5" height="11.5" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<rect x="270.25" y="186.25" width="11.5" height="11.5" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+<rect x="296.25" y="186.25" width="11.5" height="11.5" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.6" class="f-bg s-muted"/>
+</g>
+<g id="fig1c-latent-graph">
+<line x1="53.65" y1="79.77" x2="98.78" y2="109.86" fill="none" stroke="#1f5fa8" stroke-width="3.4" stroke-linecap="butt" class="s-blue"/>
+<polygon points="107.52,115.68 95.56,113.79 101.17,105.37" fill="#1f5fa8" class="f-blue" stroke-linejoin="round"/>
+<line x1="262.72" y1="76.43" x2="144.19" y2="115.94" fill="none" stroke="#1f5fa8" stroke-width="3.4" stroke-linecap="butt" class="s-blue"/>
+<polygon points="134.23,119.26 143.07,110.98 146.27,120.58" fill="#1f5fa8" class="f-blue" stroke-linejoin="round"/>
+<line x1="134" y1="124" x2="172.5" y2="124" fill="none" stroke="#1f5fa8" stroke-width="3.4" stroke-linecap="butt" class="s-blue"/>
+<polygon points="183,124 172,129.06 172,118.94" fill="#1f5fa8" class="f-blue" stroke-linejoin="round"/>
+<circle cx="42" cy="72" r="14" fill="#1f5fa8" class="f-blue"/>
+<text x="42" y="77.04" font-size="13.7" font-weight="500" fill="#ffffff" class="f-bg" text-anchor="middle">Z<tspan font-size="9.86" dy="3.84">1</tspan></text>
+<circle cx="120" cy="124" r="14" fill="#1f5fa8" class="f-blue"/>
+<text x="120" y="129.04" font-size="13.7" font-weight="500" fill="#ffffff" class="f-bg" text-anchor="middle">Z<tspan font-size="9.86" dy="3.84">2</tspan></text>
+<circle cx="198" cy="124" r="14" fill="#1f5fa8" class="f-blue"/>
+<text x="198" y="129.04" font-size="13.7" font-weight="500" fill="#ffffff" class="f-bg" text-anchor="middle">Z<tspan font-size="9.86" dy="3.84">4</tspan></text>
+<circle cx="276" cy="72" r="14" fill="#1f5fa8" class="f-blue"/>
+<text x="276" y="77.04" font-size="13.7" font-weight="500" fill="#ffffff" class="f-bg" text-anchor="middle">Z<tspan font-size="9.86" dy="3.84">3</tspan></text>
+</g>
+<g id="fig1c-identified">
+<circle cx="10" cy="231" r="9" fill="#086f74" class="f-teal"/>
+<path d="M5.8 231.3 L8.8 234.5 L14.4 227.6" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" class="s-bg" stroke-linejoin="round"/>
+<text x="28" y="236" font-size="14" font-weight="400" fill="#14304a" class="f-ink">Measurement graph</text>
+<circle cx="10" cy="265" r="9" fill="#086f74" class="f-teal"/>
+<path d="M5.8 265.3 L8.8 268.5 L14.4 261.6" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" class="s-bg" stroke-linejoin="round"/>
+<text x="28" y="270" font-size="14" font-weight="400" fill="#14304a" class="f-ink">Latent distribution and</text>
+<text x="28" y="288" font-size="14" font-weight="400" fill="#14304a" class="f-ink">measurement parameters</text>
+<circle cx="10" cy="317" r="9" fill="#086f74" class="f-teal"/>
+<path d="M5.8 317.3 L8.8 320.5 L14.4 313.6" fill="none" stroke="#ffffff" stroke-width="2.2" stroke-linecap="round" class="s-bg" stroke-linejoin="round"/>
+<text x="28" y="322" font-size="14" font-weight="400" fill="#14304a" class="f-ink">Latent causal graph, up to</text>
+<text x="28" y="340" font-size="14" font-weight="400" fill="#14304a" class="f-ink">Markov equivalence</text>
+</g>
+</svg>
