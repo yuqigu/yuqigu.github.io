@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 372" width="320" height="372" role="img" aria-labelledby="fig1b-t fig1b-d" font-family="Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif" class="rf">
+<title id="fig1b-t">Identifiable deep architectures can have shared children</title>
+<desc id="fig1b-d">An illustrative multilayer graph with two latent layers above an observed layer, with dots marking nodes and edges not drawn. Each drawn parent has children of its own, and some highlighted children have two parents. Layers narrow toward the top.</desc>
+<text x="0" y="19" font-size="17" font-weight="700" fill="#14304a" class="f-ink">Depth</text>
+<text x="0" y="40" font-size="14" font-weight="400" fill="#4f6275" class="f-muted">Shrinking layers; shared children allowed</text>
+<g id="fig1b-links">
+<line x1="104.35" y1="95.73" x2="60.19" y2="163.44" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="57.46,167.62 58.35,161.63 62.59,164.4" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<line x1="108.47" y1="97.55" x2="91.79" y2="161.49" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="90.52,166.32 89.46,160.36 94.36,161.64" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<line x1="113.81" y1="97.88" x2="122.06" y2="161.13" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="122.71,166.08 119.49,160.96 124.5,160.3" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<line x1="118.48" y1="96.41" x2="151.21" y2="159.15" fill="none" stroke="#a94a07" stroke-width="1.8" stroke-linecap="butt" class="s-orange"/>
+<polygon points="153.99,164.47 148.33,160.09 153.63,157.33" fill="#a94a07" class="f-orange" stroke-linejoin="round"/>
+<line x1="223.37" y1="95.03" x2="171.71" y2="161.04" fill="none" stroke="#a94a07" stroke-width="1.8" stroke-linecap="butt" class="s-orange"/>
+<polygon points="168.01,165.76 169.66,158.8 174.37,162.49" fill="#a94a07" class="f-orange" stroke-linejoin="round"/>
+<line x1="226.9" y1="97.04" x2="201.47" y2="162.03" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="199.64,166.69 199.29,160.64 204,162.49" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<line x1="232" y1="98" x2="232" y2="161" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="232,166 229.47,160.5 234.53,160.5" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<line x1="237.1" y1="97.04" x2="262.53" y2="162.03" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="264.36,166.69 260,162.49 264.71,160.64" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<line x1="51.15" y1="185.96" x2="45.02" y2="258.04" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="44.59,263.03 42.54,257.33 47.58,257.76" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<line x1="53.37" y1="185.91" x2="63.36" y2="258.11" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="64.04,263.07 60.78,257.96 65.79,257.27" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<line x1="55.4" y1="185.4" x2="81.92" y2="258.72" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="83.62,263.42 79.37,259.11 84.13,257.38" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<line x1="57.05" y1="184.63" x2="100.43" y2="258.78" fill="none" stroke="#a94a07" stroke-width="1.8" stroke-linecap="butt" class="s-orange"/>
+<polygon points="103.46,263.96 97.6,259.86 102.76,256.84" fill="#a94a07" class="f-orange" stroke-linejoin="round"/>
+<line x1="89.98" y1="185.8" x2="104.42" y2="257.26" fill="none" stroke="#a94a07" stroke-width="1.8" stroke-linecap="butt" class="s-orange"/>
+<polygon points="105.61,263.14 101.39,257.36 107.26,256.18" fill="#a94a07" class="f-orange" stroke-linejoin="round"/>
+<line x1="91.92" y1="185.2" x2="123.3" y2="258.96" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="125.26,263.56 120.78,259.49 125.43,257.51" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<line x1="93.44" y1="184.39" x2="142.47" y2="259.93" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="145.19,264.13 140.07,260.89 144.32,258.14" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<line x1="94.57" y1="183.54" x2="162.11" y2="260.96" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="165.4,264.73 159.88,262.24 163.69,258.92" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<line x1="232.11" y1="186" x2="232.86" y2="257" fill="none" stroke="#a94a07" stroke-width="1.8" stroke-linecap="butt" class="s-orange"/>
+<polygon points="232.93,263 229.87,256.53 235.85,256.47" fill="#a94a07" class="f-orange" stroke-linejoin="round"/>
+<line x1="264.51" y1="185.37" x2="237.54" y2="257.82" fill="none" stroke="#a94a07" stroke-width="1.8" stroke-linecap="butt" class="s-orange"/>
+<polygon points="235.44,263.44 234.91,256.31 240.51,258.39" fill="#a94a07" class="f-orange" stroke-linejoin="round"/>
+<line x1="266.53" y1="185.89" x2="255.77" y2="258.13" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="255.03,263.08 253.34,257.26 258.34,258.01" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<line x1="268.74" y1="185.97" x2="274.11" y2="258.03" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="274.48,263.02 271.55,257.72 276.59,257.35" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+<line x1="270.85" y1="185.58" x2="292.57" y2="258.5" fill="none" stroke="#4f6275" stroke-width="1.15" stroke-linecap="butt" class="s-muted"/>
+<polygon points="294,263.29 290.01,258.74 294.86,257.3" fill="#4f6275" class="f-muted" stroke-linejoin="round"/>
+</g>
+<g id="fig1b-nodes">
+<rect x="38.5" y="264.5" width="11" height="11" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.4" class="f-bg s-muted"/>
+<rect x="59.5" y="264.5" width="11" height="11" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.4" class="f-bg s-muted"/>
+<rect x="80.5" y="264.5" width="11" height="11" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.4" class="f-bg s-muted"/>
+<rect x="101.5" y="264.5" width="11" height="11" rx="2" fill="#ffffff" stroke="#a94a07" stroke-width="2.4" class="f-bg s-orange"/>
+<rect x="122.5" y="264.5" width="11" height="11" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.4" class="f-bg s-muted"/>
+<rect x="143.5" y="264.5" width="11" height="11" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.4" class="f-bg s-muted"/>
+<rect x="164.5" y="264.5" width="11" height="11" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.4" class="f-bg s-muted"/>
+<rect x="227.5" y="264.5" width="11" height="11" rx="2" fill="#ffffff" stroke="#a94a07" stroke-width="2.4" class="f-bg s-orange"/>
+<rect x="248.5" y="264.5" width="11" height="11" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.4" class="f-bg s-muted"/>
+<rect x="269.5" y="264.5" width="11" height="11" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.4" class="f-bg s-muted"/>
+<rect x="290.5" y="264.5" width="11" height="11" rx="2" fill="#ffffff" stroke="#4f6275" stroke-width="1.4" class="f-bg s-muted"/>
+<circle cx="52" cy="176" r="10" fill="#1f5fa8" class="f-blue"/>
+<circle cx="88" cy="176" r="10" fill="#1f5fa8" class="f-blue"/>
+<circle cx="124" cy="176" r="10" fill="#1f5fa8" class="f-blue"/>
+<circle cx="160" cy="176" r="13" fill="#ffffff" stroke="#a94a07" stroke-width="2" class="f-bg s-orange"/>
+<circle cx="160" cy="176" r="10" fill="#1f5fa8" class="f-blue"/>
+<circle cx="196" cy="176" r="10" fill="#1f5fa8" class="f-blue"/>
+<circle cx="232" cy="176" r="10" fill="#1f5fa8" class="f-blue"/>
+<circle cx="268" cy="176" r="10" fill="#1f5fa8" class="f-blue"/>
+<circle cx="112" cy="84" r="14" fill="#1f5fa8" class="f-blue"/>
+<circle cx="232" cy="84" r="14" fill="#1f5fa8" class="f-blue"/>
+</g>
+<text x="172" y="88" font-size="16" font-weight="700" fill="#4f6275" class="f-muted" text-anchor="middle">⋯</text>
+<text x="304" y="180" font-size="16" font-weight="700" fill="#4f6275" class="f-muted" text-anchor="middle">⋯</text>
+<text x="124" y="205" font-size="16" font-weight="700" fill="#4f6275" class="f-muted" text-anchor="middle">⋯</text>
+<text x="160" y="205" font-size="16" font-weight="700" fill="#4f6275" class="f-muted" text-anchor="middle">⋯</text>
+<text x="196" y="205" font-size="16" font-weight="700" fill="#4f6275" class="f-muted" text-anchor="middle">⋯</text>
+<text x="201" y="275" font-size="16" font-weight="700" fill="#4f6275" class="f-muted" text-anchor="middle">⋯</text>
+<text x="0" y="89" font-size="14" font-weight="500" fill="#14304a" class="f-ink"><tspan font-style="italic">A</tspan><tspan font-size="10.08" dy="-5.32">(2)</tspan></text>
+<text x="0" y="181" font-size="14" font-weight="500" fill="#14304a" class="f-ink"><tspan font-style="italic">A</tspan><tspan font-size="10.08" dy="-5.32">(1)</tspan></text>
+<text x="0" y="275" font-size="14" font-weight="500" fill="#14304a" class="f-ink"><tspan font-style="italic">Y</tspan></text>
+<text x="0" y="314" font-size="14" font-weight="400" fill="#14304a" class="f-ink">Each latent keeps children of its own;</text>
+<text x="0" y="332" font-size="14" font-weight="400" fill="#14304a" class="f-ink">highlighted children have more than one parent.</text>
+<text x="0" y="350" font-size="14" font-weight="400" fill="#14304a" class="f-ink">Illustrative: layer widths are not fixed.</text>
+</svg>

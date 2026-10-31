@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 278" width="320" height="278" role="img" aria-labelledby="fig3b-t fig3b-d" font-family="Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif" class="rf">
+<title id="fig3b-t">Rank intervals on quantitative reasoning</title>
+<desc id="fig3b-d">Simultaneous rank intervals for the five top-scoring of 5,055 language models on quantitative reasoning. All five begin at rank 1. Upper ends: 75, 84, 96, 122, 122.</desc>
+<text x="0" y="19" font-size="17" font-weight="700" fill="#14304a" class="f-ink">How sure?</text>
+<text x="0" y="40" font-size="14" font-weight="400" fill="#4f6275" class="f-muted">Top five on quantitative reasoning</text>
+<line x1="26" y1="64" x2="26" y2="220" fill="none" stroke="#14304a" stroke-width="1.6" stroke-linecap="round" class="s-ink"/>
+<text x="26" y="239" font-size="13.5" font-weight="400" fill="#4f6275" class="f-muted" text-anchor="middle">1</text>
+<line x1="111.5" y1="64" x2="111.5" y2="220" fill="none" stroke="#c5d2dc" stroke-width="1" stroke-linecap="round" class="s-rule"/>
+<text x="111.5" y="239" font-size="13.5" font-weight="400" fill="#4f6275" class="f-muted" text-anchor="middle">50</text>
+<line x1="198.75" y1="64" x2="198.75" y2="220" fill="none" stroke="#c5d2dc" stroke-width="1" stroke-linecap="round" class="s-rule"/>
+<text x="198.75" y="239" font-size="13.5" font-weight="400" fill="#4f6275" class="f-muted" text-anchor="middle">100</text>
+<line x1="286" y1="64" x2="286" y2="220" fill="none" stroke="#c5d2dc" stroke-width="1" stroke-linecap="round" class="s-rule"/>
+<text x="286" y="239" font-size="13.5" font-weight="400" fill="#4f6275" class="f-muted" text-anchor="middle">150</text>
+<text x="156" y="259" font-size="13.5" font-weight="400" fill="#4f6275" class="f-muted" text-anchor="middle">Rank among 5,055 LLMs</text>
+<g id="fig3b-intervals">
+<text x="18" y="87" font-size="13.5" font-weight="400" fill="#4f6275" class="f-muted" text-anchor="end">1</text>
+<rect x="26" y="75" width="129.13" height="14" rx="2" fill="#e3ecf6" stroke="#1f5fa8" stroke-width="1.4" class="f-blue-soft s-blue"/>
+<circle cx="26" cy="82" r="4.4" fill="#a94a07" stroke="#ffffff" stroke-width="1" class="f-orange s-bg"/>
+<text x="162.13" y="87" font-size="14" font-weight="700" fill="#14304a" class="f-ink">75</text>
+<text x="18" y="117" font-size="13.5" font-weight="400" fill="#4f6275" class="f-muted" text-anchor="end">2</text>
+<rect x="26" y="105" width="144.83" height="14" rx="2" fill="#e3ecf6" stroke="#1f5fa8" stroke-width="1.4" class="f-blue-soft s-blue"/>
+<circle cx="27.74" cy="112" r="4.4" fill="#a94a07" stroke="#ffffff" stroke-width="1" class="f-orange s-bg"/>
+<text x="177.83" y="117" font-size="14" font-weight="700" fill="#14304a" class="f-ink">84</text>
+<text x="18" y="147" font-size="13.5" font-weight="400" fill="#4f6275" class="f-muted" text-anchor="end">3</text>
+<rect x="26" y="135" width="165.77" height="14" rx="2" fill="#e3ecf6" stroke="#1f5fa8" stroke-width="1.4" class="f-blue-soft s-blue"/>
+<circle cx="29.49" cy="142" r="4.4" fill="#a94a07" stroke="#ffffff" stroke-width="1" class="f-orange s-bg"/>
+<text x="198.77" y="147" font-size="14" font-weight="700" fill="#14304a" class="f-ink">96</text>
+<text x="18" y="177" font-size="13.5" font-weight="400" fill="#4f6275" class="f-muted" text-anchor="end">4</text>
+<rect x="26" y="165" width="211.14" height="14" rx="2" fill="#e3ecf6" stroke="#1f5fa8" stroke-width="1.4" class="f-blue-soft s-blue"/>
+<circle cx="31.23" cy="172" r="4.4" fill="#a94a07" stroke="#ffffff" stroke-width="1" class="f-orange s-bg"/>
+<text x="244.14" y="177" font-size="14" font-weight="700" fill="#14304a" class="f-ink">122</text>
+<text x="18" y="207" font-size="13.5" font-weight="400" fill="#4f6275" class="f-muted" text-anchor="end">5</text>
+<rect x="26" y="195" width="211.14" height="14" rx="2" fill="#e3ecf6" stroke="#1f5fa8" stroke-width="1.4" class="f-blue-soft s-blue"/>
+<circle cx="32.98" cy="202" r="4.4" fill="#a94a07" stroke="#ffffff" stroke-width="1" class="f-orange s-bg"/>
+<text x="244.14" y="207" font-size="14" font-weight="700" fill="#14304a" class="f-ink">122</text>
+</g>
+</svg>
