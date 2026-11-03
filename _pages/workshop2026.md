@@ -75,11 +75,6 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
         <h3>Yuxin Chen</h3>
         <p>University of Pennsylvania</p>
       </a>
-      <a class="speaker-card" href="https://www2.stat.duke.edu/~dunson/" target="_blank" rel="noopener noreferrer">
-        <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/dunson-david.webp' | relative_url }}" alt="Portrait of David Dunson" width="500" height="500" loading="lazy" decoding="async"></div>
-        <h3>David Dunson</h3>
-        <p>Duke University</p>
-      </a>
       <a class="speaker-card" href="https://fan.princeton.edu/" target="_blank" rel="noopener noreferrer">
         <div class="speaker-photo"><img class="speaker-photo--fan" src="{{ '/assets/img/workshop2026/speakers/fan-jianqing.webp' | relative_url }}" alt="Portrait of Jianqing Fan" width="197" height="268" loading="lazy" decoding="async"></div>
         <h3>Jianqing Fan</h3>
@@ -105,6 +100,11 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
         <h3>Tracy Ke</h3>
         <p>Harvard University</p>
       </a>
+      <a class="speaker-card" href="https://maurilorenzo.github.io/" target="_blank" rel="noopener noreferrer">
+        <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/mauri-lorenzo.webp' | relative_url }}" alt="Portrait of Lorenzo Mauri" width="525" height="700" loading="lazy" decoding="async"></div>
+        <h3>Lorenzo Mauri</h3>
+        <p>Duke University</p>
+      </a>
       <a class="speaker-card" href="https://georgemichailidis.github.io/" target="_blank" rel="noopener noreferrer">
         <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/michailidis-george.webp' | relative_url }}" alt="Portrait of George Michailidis" width="600" height="600" loading="lazy" decoding="async"></div>
         <h3>George Michailidis</h3>
@@ -119,11 +119,6 @@ custom_css: /assets/css/workshop2026.css?v=20260824-hongtu-zhu
         <div class="speaker-photo"><img class="speaker-photo--qu" src="{{ '/assets/img/workshop2026/speakers/qu-annie.webp' | relative_url }}" alt="Portrait of Annie Qu" width="565" height="700" loading="lazy" decoding="async"></div>
         <h3>Annie Qu</h3>
         <p>UC Santa Barbara</p>
-      </a>
-      <a class="speaker-card" href="https://faculty.washington.edu/ashojaie/" target="_blank" rel="noopener noreferrer">
-        <div class="speaker-photo"><img src="{{ '/assets/img/workshop2026/speakers/shojaie-ali.webp' | relative_url }}" alt="Portrait of Ali Shojaie" width="508" height="508" loading="lazy" decoding="async"></div>
-        <h3>Ali Shojaie</h3>
-        <p>University of Washington</p>
       </a>
       <a class="speaker-card" href="https://sites.google.com/umich.edu/gongjunxu/home" target="_blank" rel="noopener noreferrer">
         <div class="speaker-photo"><img class="speaker-photo--xu" src="{{ '/assets/img/workshop2026/speakers/xu-gongjun.webp' | relative_url }}" alt="Portrait of Gongjun Xu" width="269" height="411" loading="lazy" decoding="async"></div>
