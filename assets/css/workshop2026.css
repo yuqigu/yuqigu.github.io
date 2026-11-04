@@ -444,3 +444,42 @@
     transition: none;
   }
 }
+
+.agenda-day {
+  margin: 1.8rem 0 .65rem;
+  scroll-margin-top: 5rem;
+}
+
+.workshop-agenda {
+  width: 100%;
+  border-collapse: collapse;
+  line-height: 1.45;
+}
+
+.workshop-agenda th,
+.workshop-agenda td {
+  padding: .55rem .8rem;
+  text-align: left;
+  vertical-align: top;
+  border-bottom: 1px solid #d9e4eb;
+}
+
+.workshop-agenda th {
+  width: 11rem;
+  font-size: .9rem;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+.agenda-affiliation {
+  font-size: .9em;
+}
+
+.workshop-agenda .agenda-event {
+  background: rgba(103, 168, 205, .12);
+}
+
+@media (max-width: 600px) {
+  .workshop-agenda th { width: 6rem; }
+  .workshop-agenda th, .workshop-agenda td { padding: .45rem .4rem; }
+}
